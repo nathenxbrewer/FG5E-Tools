@@ -1,0 +1,44 @@
+{"flavor":
+    {
+        "faction":"",
+        "environment":"",
+        "description":"",
+        "nameIsProper":false,
+        "imageUrl":""
+    },
+    "stats":
+    {
+        "size":"Gargantuan",
+        "race":"monstrosity (titan)",
+        "alignment":"Unaligned",
+        "armorType":"natural armor",
+        "armorClass":20,
+        "numHitDie":17,
+        "speed":"15 ft., fly 80 ft. (hover)",
+        "abilityScores":
+        {
+            "strength":28,
+            "dexterity":7,
+            "constitution":25,
+            "intelligence":5,
+            "wisdom":14,
+            "charisma":18
+        },
+        "proficiencyBonus":7,
+        "damageVulnerabilities":[],
+        "damageResistances":["Bludgeoning","Piercing","Slashing","from non-magical attacks"],
+        "damageImmunities":[],
+        "conditionImmunities":["Charmed","Exhaustion","Frightened","Paralyzed","Petrified","Poisoned","Prone","Stunned"],
+        "senses":["darkvision 120 ft."],
+        "languages":[],
+        "challengeRating":21,
+        "experiencePoints":33000,
+        "legendaryActionsPerRound":3,
+        "legendaryActionsDescription":"The astral dreadnought can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The astral dreadnought regains spent legendary actions at the start of its turn.",
+        "savingThrows":[{"ability":"dexterity","proficient":true},{"ability":"wisdom","proficient":true}],
+        "skills":[{"name":"Perception","proficient":true}],
+        "additionalAbilities":[{"name":"Antimagic Cone","description":"The astral dreadnought's opened eye creates an area of antimagic, as in the <i>antimagic field</i> spell, in a 150-foot cone. At the start of each of its turns, the dreadnought decides which way the cone faces. The cone doesn't function while the dreadnought's eye is closed or while the dreadnought is blinded."},{"name":"Astral Entity","description":"The astral dreadnought can't leave the Astral Plane, nor can it be banished or otherwise transported out of the Astral Plane."},{"name":"Demiplanar Donjon","description":"Any creature or object that the astral dreadnought swallows is transported to a demiplane that can be entered by no other means except a <i>wish</i> spell or this creature's Donjon Visit ability. A creature can leave the demiplane only by using magic that enables planar travel, such as the <i>plane shift</i> spell. The demiplane resembles a stone cave roughly 1,000 feet in diameter with a ceiling 100 feet high."},{"name":"Legendary Resistance (3/Day)","description":"If the astral dreadnought fails a saving throw, it can choose to succeed instead."},{"name":"Magic Weapons","description":"The astral dreadnought's weapon attacks are magical."},{"name":"Sever Silver Cord","description":"If the astral dreadnought scores a critical hit against a creature traveling through the Astral Plane by means of the <i>astral projection</i> spell, the dreadnought can cut the creature's silver cord instead of dealing damage."}],"actions":[{"name":"Multiattack","description":"The astral dreadnought makes three attacks: one with its bite and two with its claws."},{"name":"Bite","description":"<i>Melee Weapon Attack:</i> +16 to hit, reach 10 ft., one target. <i>Hit:</i> 36 (5d10 + 9) piercing damage. If the target is a creature of Huge size or smaller and this damage reduces it to 0 hit points or it is incapacitated, the astral dreadnought swallows it. The swallowed target, along with everything it is wearing and carrying, appears in an unoccupied space on the floor of the astral dreadnought's Demiplanar Donjon."},{"name":"Claw","description":"<i>Melee Weapon Attack:</i> +16 to hit, reach 20 ft., one target. <i>Hit:</i> 19 (3d6 + 9) slashing damage."}],
+        "reactions":[],
+        "legendaryActions":[{"name":"Claw","description":"The astral dreadnought makes one claw attack."},{"name":"Donjon Visit (Costs 2 Actions)","description":"One creature that is Huge or smaller that the astral dreadnought can see within 60 feet of it must succeed on a DC 19 Charisma saving throw or be magically teleported to an unoccupied space on the floor of the astral dreadnought's Demiplanar Donjon. At the end of the target's next turn, the target reappears in the space it left or in the nearest unoccupied space if that space is occupied."},{"name":"Psychic Projection (Costs 3 Actions)","description":"Each creature within 60 feet of the astral dreadnought must make a DC 19 Wisdom saving throw, taking 15 (2d10 + 4) psychic damage on a failed save, or half as much damage as a successful one."}],
+        "hitDieSize":20},
+        "sharing":{"linkSharingEnabled":false},"_id":"5ea4b8b563a0580dfd76d37f","name":"Astral Dreadnought","__v":0,"publishedBestiaryId":"5ea4b8b463a0580dfd76d379"}
