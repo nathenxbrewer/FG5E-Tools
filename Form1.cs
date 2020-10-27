@@ -1,22 +1,18 @@
 ﻿using Critter2FG.Character;
-using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
 using System.IO;
-using System.Linq;
 using System.Net;
 using System.Text;
 using System.Text.RegularExpressions;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using Newtonsoft.Json;
 using System.Xml;
 using System.Xml.Serialization;
 using System.Xml.Linq;
+using Newtonsoft.Json.Linq;
+using Newtonsoft.Json;
+using System.Linq;
+using System.Security.AccessControl;
 
 namespace Critter2FG
 {
@@ -63,7 +59,7 @@ namespace Critter2FG
         {
             PlayableCharacter parsed_character = new PlayableCharacter();
 
-            string inputjson = File.ReadAllText(@"D:\Documents\wadereed.json");
+            string inputjson = File.ReadAllText(@"wadereed.json");
             JObject input = JObject.Parse(inputjson);
             parsed_character.name = (string)input["data"]["name"];
             //background
@@ -159,8 +155,8 @@ namespace Critter2FG
             }
             #endregion
 
+            //racial ability score bonuses.
             JToken asBonuses = input["data"]["modifiers"]["race"];
-            List<KeyValuePair<string, int>> bonuses = new List<KeyValuePair<string, int>>();
             foreach (JObject bonus in asBonuses)
             {
                 string type = (string)bonus["type"];
@@ -171,12 +167,91 @@ namespace Critter2FG
                     int bonusamount = (int)bonus["value"];
 
                     KeyValuePair<string, int> bonuspair;
-                    bonuses.Add(new KeyValuePair<string, int>(bonusname, bonusamount));
+                    parsed_character.racialBonuses.Add(new KeyValuePair<string, int>(bonusname, bonusamount));
+                }
+            }
+            foreach (KeyValuePair<string, int> kvp in parsed_character.racialBonuses)
+            {
+               MessageBox.Show(kvp.Key.ToLower() + " " + kvp.Value);
+            }
+
+            //Skill proficiencies (from background or class)
+            JToken backgroundprof = input["data"]["modifiers"]["background"];
+            JToken classprof = input["data"]["modifiers"]["class"];
+            //background proficiencies
+            foreach (JObject prof in backgroundprof)
+            {
+                string type = (string)prof["type"];
+                if (type == "proficiency" || type == "expertise")
+                {
+                    string profname = (string)prof["friendlySubtypeName"];
+                   // MessageBox.Show(profname);
+
+                    int profvalue = 0;
+                    if (type == "proficiency")
+                    {
+                        //standard proficiency
+                        profvalue = 1;
+                    }
+                    else if (type == "expertise")
+                    {
+                        //double proficiency
+                        profvalue = 2;
+                    }
+
+                    KeyValuePair<string, int> profpair;
+                    parsed_character.backgroundProf.Add(new KeyValuePair<string, int>(profname, profvalue));
+                }
+            }
+            //class proficiencies
+            foreach (JObject prof in classprof)
+            {
+                string type = (string)prof["type"];
+                if (type == "proficiency" || type == "expertise")
+                {
+                    string profname = (string)prof["friendlySubtypeName"];
+                    // MessageBox.Show(profname);
+
+                    int profvalue = 0;
+                    if (type == "proficiency")
+                    {
+                        //standard proficiency
+                        profvalue = 1;
+                    }
+                    else if (type == "expertise")
+                    {
+                        //double proficiency
+                        profvalue = 2;
+                    }
+
+                    KeyValuePair<string, int> profpair;
+                    parsed_character.classProf.Add(new KeyValuePair<string, int>(profname, profvalue));
                 }
             }
 
-           // ExportCharacter(parsed_character);
+            //Getting Backround and Class proficiencies that pertain to the basic skill list. All others will be added under the proficiency list. 
+            foreach (KeyValuePair<string, int> prof in parsed_character.backgroundProf)
+            {
+                List<Skill> skillprof = parsed_character.SkillList.FindAll(item => item.name.ToLower() == prof.Key.ToLower());
+                foreach (Skill activeprofskill in skillprof)
+                {
+                    activeprofskill.prof = prof.Value;
+                }
+            }
 
+            foreach (KeyValuePair<string, int> prof in parsed_character.classProf)
+            {
+                List<Skill> skillprof = parsed_character.SkillList.FindAll(item => item.name.ToLower() == prof.Key.ToLower());
+              //--  List<Skill> otherprof = parsed_character.SkillList.FindAll(item => item.name.ToLower() != prof.Key.ToLower());
+                foreach (Skill activeprofskill in skillprof)
+                {
+                    activeprofskill.prof = prof.Value;
+                }
+            }
+            foreach (Skill skill in parsed_character.SkillList)
+            {
+                MessageBox.Show("Skill: " + skill.name + "\n" + "Proficiency: " + skill.prof.ToString());
+            }
 
         }
         public string StripHTML(string input)
@@ -210,7 +285,7 @@ namespace Critter2FG
             //string jsonText = JsonConvert.SerializeXmlNode(doc);
 
             // To convert JSON text contained in string json into an XML node
-            XNode node = JsonConvert.DeserializeXNode(File.ReadAllText(@"D:\Documents\wadereed.json"), "Root");
+            XNode node = JsonConvert.DeserializeXNode(File.ReadAllText(@"wadereed.json"), "Root");
 
             File.WriteAllText("jsonconverter.xml",node.ToString());
 
@@ -276,6 +351,7 @@ namespace Critter2FG
                     SingleAttribute(writer, "cost", "string", item.cost.ToString());
                     SingleAttribute(writer, "rarity", "string", item.rarity);
                     SingleAttribute(writer, "carried", "number", item.carried.ToString());
+
                     //backgroundlink
                     writer.WriteStartElement("description");
                     writer.WriteAttributeString("type", "formattedtext");
@@ -327,9 +403,10 @@ namespace Critter2FG
 
         private void btnCharacterParse_Click(object sender, EventArgs e)
         {
-            AbilityScore score = new AbilityScore("testscore", 17);
+            //AbilityScore score = new AbilityScore("testscore", 17);
 
-            score.addBonus(4);
+            //score.addBonus(4);
+            ParseCharacter();
 
 
 

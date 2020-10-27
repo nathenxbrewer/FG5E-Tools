@@ -16,12 +16,15 @@ namespace Critter2FG.Character
          * 2 - double
          * 3 - half
          */
-        public int basescore { get; set; }
-        public int modifier { get; set; }
-        public string name { get; set; }
-        public int proficient { get; set; }
-        public string stattype { get; set; }
-        public int total { get; set; }
 
+        public string name { get; set; }
+        public int prof { get; set; }
+        public string stat { get; set; }
+
+        public Skill(string Name, string Stat)
+        {
+            name = Name;
+            stat = Stat;
+        }
     }
 }
