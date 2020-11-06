@@ -13,6 +13,8 @@ namespace Critter2FG.Character
     public class Item
     {
         public int quantity { get; set; }
+        public int damagecategory { get; set; }
+        public string category { get; set; }
         public int ac { get; set; }
         public int bonus { get; set; }
         public int carried { get; set; }
@@ -28,9 +30,12 @@ namespace Critter2FG.Character
         public string type { get; set; }
         public int weight { get; set; }
         public string damage { get; set; }
+        public string diceString { get; set; }
+        public string damageType { get; set; }
         public string rarity { get; set; }
         public string properties { get; set; }
         public string filtertype { get; set; }
+        public string itemID { get; set; }
 
         public Item(string strName, int intCost, string strDescription, int itemquantity)
         {

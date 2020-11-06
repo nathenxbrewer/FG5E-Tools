@@ -52,6 +52,7 @@
     <Compile Include="Character\AbilityScore.cs" />
     <Compile Include="Character\Character.cs" />
     <Compile Include="Character\Class.cs" />
+    <Compile Include="Character\Feature.cs" />
     <Compile Include="Character\Item.cs" />
     <Compile Include="Character\Skill.cs" />
     <Compile Include="Form1.cs">

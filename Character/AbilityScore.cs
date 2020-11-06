@@ -12,10 +12,11 @@ namespace Critter2FG
         public string abilityname { get; set; }
         private int Bonus { get; set; }
         public int save { get; set; }
-        public bool saveprof { get; set; }
+        public int saveprof { get; set; }
         public int basescore { get; set; }
         public int totalscore { get; set; }
         public int modifier { get; set; }
+
 
 
 
@@ -23,11 +24,7 @@ namespace Critter2FG
         {
             abilityname = scorename;
             basescore = score;
-            CalculateTotal();
-            CalculateModifier();
-
-            
-
+            //CalculateTotal();
 
 
 
@@ -36,8 +33,7 @@ namespace Critter2FG
         public void addBonus(int bonusamount)
         {
             basescore = basescore + bonusamount;
-            CalculateModifier();
-            CalculateTotal();
+            //CalculateTotal();
 
         }
 
@@ -45,69 +41,69 @@ namespace Critter2FG
         {
             totalscore = basescore + Bonus;
         }
-        public void CalculateModifier()
+        public int CalculateModifier()
         {
-            if (totalscore == 1)
+            if (basescore == 1)
             {
                 modifier = -5;
             }
-            else if (IsWithin(totalscore, 2, 3))
+            else if (IsWithin(basescore, 2, 3))
             {
                 modifier = -4;
             }
-            else if (IsWithin(totalscore, 4, 5))
+            else if (IsWithin(basescore, 4, 5))
             {
                 modifier = -3;
             }
-            else if (IsWithin(totalscore, 6, 7))
+            else if (IsWithin(basescore, 6, 7))
             {
                 modifier = -2;
             }
-            else if (IsWithin(totalscore, 8, 9))
+            else if (IsWithin(basescore, 8, 9))
             {
                 modifier = -1;
             }
-            else if (IsWithin(totalscore, 10, 11))
+            else if (IsWithin(basescore, 10, 11))
             {
                 modifier = 0;
             }
-            else if (IsWithin(totalscore, 12, 13))
+            else if (IsWithin(basescore, 12, 13))
             {
                 modifier = 1;
             }
-            else if (IsWithin(totalscore, 14, 15))
+            else if (IsWithin(basescore, 14, 15))
             {
                 modifier = 2;
             }
-            else if (IsWithin(totalscore, 16,17))
+            else if (IsWithin(basescore, 16,17))
             {
                 modifier = 3;
             }
-            else if (IsWithin(totalscore, 18,19))
+            else if (IsWithin(basescore, 18,19))
             {
                 modifier = 4;
             }
-            else if (IsWithin(totalscore, 20,21))
+            else if (IsWithin(basescore, 20,21))
             {
                 modifier = 5;
             }
-            else if (IsWithin(totalscore, 22,23))
+            else if (IsWithin(basescore, 22,23))
             {
                 modifier = 6;
             }
-            else if (IsWithin(totalscore, 24,25))
+            else if (IsWithin(basescore, 24,25))
             {
                 modifier = 7;
             }
-            else if (IsWithin(totalscore, 26,27))
+            else if (IsWithin(basescore, 26,27))
             {
                 modifier = 8;
             }
-            else if (IsWithin(totalscore, 28,29))
+            else if (IsWithin(basescore, 28,29))
             {
                 modifier = 9;
             }
-            else if (totalscore == 30)
+            else if (basescore == 30)
             {
                 modifier = 10;
             }
@@ -115,6 +111,7 @@ namespace Critter2FG
             {
                 modifier = 0;
             }
+            return modifier;
         }
 
         public static bool IsWithin(int value, int minimum, int maximum)

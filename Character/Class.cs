@@ -7,12 +7,18 @@ using System.Threading.Tasks;
 
 namespace Critter2FG.Character
 {
-    class Class
+    public class Class
     {
         public string name { get; set; }
         public int level { get; set; }
         public int casterlevel { get; set; }
         public string hitdie { get; set; }
         public int hitdieused { get; set; }
+        public Class(string Name, int Level,string HitDie)
+        {
+            name = Name;
+            level = Level;
+            hitdie = HitDie;
+        }
     }
 }
