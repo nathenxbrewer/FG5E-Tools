@@ -138,6 +138,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Icon.ico" />
+    <None Include="Resources\Icon.png" />
+    <None Include="Resources\btnCancel.png" />
+    <None Include="Resources\broom_white.png" />
     <None Include="Resources\bmac %281%29.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

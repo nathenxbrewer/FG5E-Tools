@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Character_Exporter));
-            this.panel3 = new System.Windows.Forms.Panel();
             this.txtIP = new System.Windows.Forms.TextBox();
             this.btnGo = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -41,30 +41,22 @@
             this.lblPath = new System.Windows.Forms.Label();
             this.pnlJSON = new System.Windows.Forms.Panel();
             this.pnlID = new System.Windows.Forms.Panel();
+            this.label6 = new System.Windows.Forms.Label();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.btnReset = new System.Windows.Forms.Button();
             this.picDonate = new System.Windows.Forms.PictureBox();
             this.picJSON = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnMinimize = new System.Windows.Forms.Button();
             this.btnClose = new System.Windows.Forms.Button();
-            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
             this.panel2.SuspendLayout();
             this.pnlJSON.SuspendLayout();
             this.pnlID.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picDonate)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picJSON)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.panel3.Cursor = System.Windows.Forms.Cursors.SizeNWSE;
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel3.Location = new System.Drawing.Point(0, 506);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(620, 8);
-            this.panel3.TabIndex = 9;
-            this.panel3.MouseDown += new System.Windows.Forms.MouseEventHandler(this.SizerMouseDown);
-            this.panel3.MouseMove += new System.Windows.Forms.MouseEventHandler(this.SizerMouseMove);
-            this.panel3.MouseUp += new System.Windows.Forms.MouseEventHandler(this.SizerMouseUp);
             // 
             // txtIP
             // 
@@ -78,17 +70,18 @@
             this.txtIP.Size = new System.Drawing.Size(147, 29);
             this.txtIP.TabIndex = 10;
             this.txtIP.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtIP.TextChanged += new System.EventHandler(this.txtIP_TextChanged);
             this.txtIP.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox1_KeyDown);
+            this.txtIP.Leave += new System.EventHandler(this.txtIP_Leave);
             // 
             // btnGo
             // 
             this.btnGo.BackColor = System.Drawing.Color.DarkCyan;
-            this.btnGo.Enabled = false;
             this.btnGo.FlatAppearance.BorderSize = 0;
             this.btnGo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnGo.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.btnGo.Location = new System.Drawing.Point(223, 430);
+            this.btnGo.Location = new System.Drawing.Point(223, 439);
             this.btnGo.Name = "btnGo";
             this.btnGo.Size = new System.Drawing.Size(163, 40);
             this.btnGo.TabIndex = 32;
@@ -100,6 +93,7 @@
             // 
             this.panel2.AutoSize = true;
             this.panel2.BackColor = System.Drawing.Color.DarkCyan;
+            this.panel2.Controls.Add(this.pictureBox1);
             this.panel2.Controls.Add(this.btnMinimize);
             this.panel2.Controls.Add(this.btnClose);
             this.panel2.Controls.Add(this.label1);
@@ -211,6 +205,34 @@
             this.pnlID.Size = new System.Drawing.Size(553, 146);
             this.pnlID.TabIndex = 41;
             // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.label6.ForeColor = System.Drawing.Color.DimGray;
+            this.label6.Location = new System.Drawing.Point(440, 482);
+            this.label6.Margin = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(171, 19);
+            this.label6.TabIndex = 40;
+            this.label6.Text = "Created by Nathen Brewer";
+            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // btnReset
+            // 
+            this.btnReset.BackColor = System.Drawing.Color.DarkRed;
+            this.btnReset.FlatAppearance.BorderSize = 0;
+            this.btnReset.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnReset.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReset.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btnReset.Location = new System.Drawing.Point(223, 387);
+            this.btnReset.Name = "btnReset";
+            this.btnReset.Size = new System.Drawing.Size(163, 40);
+            this.btnReset.TabIndex = 42;
+            this.btnReset.Text = "Reset";
+            this.btnReset.UseVisualStyleBackColor = false;
+            this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
+            // 
             // picDonate
             // 
             this.picDonate.BackgroundImage = global::Critter2FG.Properties.Resources.bmac__1_;
@@ -232,6 +254,16 @@
             this.picJSON.TabIndex = 38;
             this.picJSON.TabStop = false;
             this.picJSON.Click += new System.EventHandler(this.picJSON_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImage = global::Critter2FG.Properties.Resources.Icon;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.Location = new System.Drawing.Point(3, 2);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(26, 26);
+            this.pictureBox1.TabIndex = 39;
+            this.pictureBox1.TabStop = false;
             // 
             // btnMinimize
             // 
@@ -263,18 +295,18 @@
             this.btnClose.UseVisualStyleBackColor = true;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
-            // label6
+            // label7
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.label6.ForeColor = System.Drawing.Color.DimGray;
-            this.label6.Location = new System.Drawing.Point(440, 482);
-            this.label6.Margin = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(171, 19);
-            this.label6.TabIndex = 40;
-            this.label6.Text = "Created by Nathen Brewer";
-            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.label7.ForeColor = System.Drawing.Color.DimGray;
+            this.label7.Location = new System.Drawing.Point(19, 482);
+            this.label7.Margin = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(99, 19);
+            this.label7.TabIndex = 43;
+            this.label7.Text = "Version 1.1.0.0";
+            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Character_Exporter
             // 
@@ -282,6 +314,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(44)))), ((int)(((byte)(44)))));
             this.ClientSize = new System.Drawing.Size(620, 514);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.btnReset);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.picDonate);
             this.Controls.Add(this.pnlID);
@@ -289,11 +323,10 @@
             this.Controls.Add(this.label5);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.btnGo);
-            this.Controls.Add(this.panel3);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.MaximumSize = new System.Drawing.Size(866, 1080);
-            this.MinimumSize = new System.Drawing.Size(200, 200);
+            this.MaximumSize = new System.Drawing.Size(620, 514);
+            this.MinimumSize = new System.Drawing.Size(620, 514);
             this.Name = "Character_Exporter";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
             this.Text = "PDU Tool";
@@ -303,13 +336,13 @@
             this.pnlID.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picDonate)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picJSON)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-        private System.Windows.Forms.Panel panel3;
         public System.Windows.Forms.TextBox txtIP;
         private System.Windows.Forms.Button btnGo;
         private System.Windows.Forms.Panel panel2;
@@ -326,6 +359,10 @@
         private System.Windows.Forms.Panel pnlID;
         private System.Windows.Forms.PictureBox picDonate;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.ToolTip toolTip1;
+        private System.Windows.Forms.Button btnReset;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label7;
     }
 }
 

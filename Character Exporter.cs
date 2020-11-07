@@ -84,19 +84,15 @@ namespace Critter2FG
 
         public void textBox1_KeyDown(object sender, KeyEventArgs e)
         {
+
+
             if (e.KeyCode == Keys.Enter || e.KeyCode == Keys.Return)
             {
                 if (txtIP.Text != "" && txtIP.Text.Length == 8)
                 {
-                    btnGo.Enabled = false;
                     pnlJSON.Enabled = false;
-                    //get json string from URL
-                    //https://character-service.dndbeyond.com/character/v3/character/15609233/
-                    using (WebClient wc = new WebClient())
-                    {
-                        json = wc.DownloadString(@"https://character-service.dndbeyond.com/character/v3/character/" + txtIP.Text + @"/");
-                    }
-                    btnGo.Enabled = true;
+                    txtIP.Enabled = false;
+
                     pnlJSON.Enabled = false;
                 }
             }
@@ -144,8 +140,6 @@ namespace Critter2FG
                 openFileDialog1.Dispose();
                 pnlID.Enabled = false;
                 json = File.ReadAllText(filepath);
-
-                btnGo.Enabled = true;
             }
         }
 
@@ -1003,6 +997,17 @@ namespace Critter2FG
 
         private void btnGo_Click(object sender, EventArgs e)
         {
+            if (txtIP.Text != "" && txtIP.Text.Length == 8)
+            {
+                //get json string from URL
+                //https://character-service.dndbeyond.com/character/v3/character/15609233/
+                using (WebClient wc = new WebClient())
+                {
+                    json = wc.DownloadString(@"https://character-service.dndbeyond.com/character/v3/character/" + txtIP.Text + @"/");
+                }
+            }
+
+
             ParseCharacter(json);
 
         }
@@ -1010,6 +1015,48 @@ namespace Critter2FG
         private void picDonate_Click(object sender, EventArgs e)
         {
             Process.Start(@"https://www.buymeacoffee.com/NathenxBrewer");
+        }
+
+        private void txtIP_Leave(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtIP_TextChanged(object sender, EventArgs e)
+        {
+            if (txtIP.Text != "" && txtIP.Text.Length == 8)
+            {
+                pnlJSON.Enabled = false;
+                txtIP.Enabled = false;
+
+                pnlJSON.Enabled = false;
+            }
+        }
+
+        private void picReset_Click(object sender, EventArgs e)
+        {
+            txtIP.Enabled = true;
+            txtIP.Text = "";
+            pnlJSON.Enabled = true;
+            
+        }
+
+        private void picResetJSON_Click(object sender, EventArgs e)
+        {
+            lblPath.Text = "No file selected.";
+            pnlJSON.Enabled = true;
+        }
+
+        private void btnReset_Click(object sender, EventArgs e)
+        {
+            txtIP.Text = "";
+            lblPath.Text = "No file selected.";
+
+            pnlJSON.Enabled = true;
+            pnlID.Enabled = true;
+            json = "";
+            txtIP.Enabled = true;
+
         }
     }
 }
