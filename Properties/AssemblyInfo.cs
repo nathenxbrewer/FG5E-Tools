@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Critter2FG")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("FG 5e Character Converter")]
+[assembly: AssemblyDescription("Converts a JSON character into a Fantasy Grounds XML")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Critter2FG")]
+[assembly: AssemblyCompany("LazyCoder Inc")]
+[assembly: AssemblyProduct("FG 5e Character Converter")]
 [assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

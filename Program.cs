@@ -16,7 +16,7 @@ namespace Critter2FG
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new Character_Exporter());
         }
     }
 }

@@ -50,6 +50,13 @@ namespace Critter2FG
         public List<Feature> featurelist;
         public PlayableCharacter()
         {
+
+
+            name = "";
+            gender = "";
+            backgroundname = "";
+
+
             racialBonuses = new List<KeyValuePair<string, int>>();
             backgroundProf = new List<KeyValuePair<string, int>>();
             classProf = new List<KeyValuePair<string, int>>();
@@ -61,6 +68,10 @@ namespace Critter2FG
             saveprof = new List<string>();
             featurelist = new List<Feature>();
             AbilityScoresList = new List<AbilityScore>();
+
+
+
+
             SkillList.Add(new Skill("Acrobatics", "dexterity"));
             SkillList.Add(new Skill("Animal Handling", "wisdom"));
             SkillList.Add(new Skill("Arcana", "intelligence"));
