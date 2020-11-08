@@ -49,7 +49,7 @@
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.btnReset = new System.Windows.Forms.Button();
             this.picDonate = new System.Windows.Forms.PictureBox();
-            this.label7 = new System.Windows.Forms.Label();
+            this.lblVersion = new System.Windows.Forms.Label();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.pnlJSON.SuspendLayout();
@@ -295,18 +295,18 @@
             this.picDonate.TabStop = false;
             this.picDonate.Click += new System.EventHandler(this.picDonate_Click);
             // 
-            // label7
+            // lblVersion
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.label7.ForeColor = System.Drawing.Color.DimGray;
-            this.label7.Location = new System.Drawing.Point(19, 482);
-            this.label7.Margin = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(99, 19);
-            this.label7.TabIndex = 43;
-            this.label7.Text = "Version 1.1.0.0";
-            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblVersion.AutoSize = true;
+            this.lblVersion.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.lblVersion.ForeColor = System.Drawing.Color.DimGray;
+            this.lblVersion.Location = new System.Drawing.Point(19, 482);
+            this.lblVersion.Margin = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.lblVersion.Name = "lblVersion";
+            this.lblVersion.Size = new System.Drawing.Size(99, 19);
+            this.lblVersion.TabIndex = 43;
+            this.lblVersion.Text = "Version 1.1.0.0";
+            this.lblVersion.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Character_Exporter
             // 
@@ -314,7 +314,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(44)))), ((int)(((byte)(44)))));
             this.ClientSize = new System.Drawing.Size(620, 514);
-            this.Controls.Add(this.label7);
+            this.Controls.Add(this.lblVersion);
             this.Controls.Add(this.btnReset);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.picDonate);
@@ -362,7 +362,7 @@
         private System.Windows.Forms.ToolTip toolTip1;
         private System.Windows.Forms.Button btnReset;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label lblVersion;
     }
 }
 

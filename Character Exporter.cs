@@ -71,6 +71,8 @@ namespace Critter2FG
         public Character_Exporter()
         {
             InitializeComponent();
+            var version = System.Reflection.Assembly.GetExecutingAssembly().GetName().Version;
+            lblVersion.Text = String.Format("Version: {0}", version);
         }
 
         private void panel1_MouseMove(object sender, MouseEventArgs e)
