@@ -1,0 +1,2802 @@
+// 20201107072119
+// https://critterdb.com/api/publishedbestiaries/5ea4b8b463a0580dfd76d379/creatures/5
+
+[
+  {
+    "flavor": {
+      "faction": "",
+      "environment": "",
+      "description": "",
+      "nameIsProper": false,
+      "imageUrl": ""
+    },
+    "stats": {
+      "size": "Large",
+      "race": "Construct",
+      "alignment": "Lawful Evil",
+      "armorType": "natural armor",
+      "armorClass": 20,
+      "numHitDie": 18,
+      "speed": "40 ft.",
+      "abilityScores": {
+        "strength": 24,
+        "dexterity": 17,
+        "constitution": 22,
+        "intelligence": 4,
+        "wisdom": 14,
+        "charisma": 6
+      },
+      "proficiencyBonus": 5,
+      "damageVulnerabilities": [
+        
+      ],
+      "damageResistances": [
+        "Cold",
+        "Lightning",
+        "Necrotic",
+        "Thunder"
+      ],
+      "damageImmunities": [
+        "Poison",
+        "Psychic",
+        "Bludgeoning",
+        "Piercing",
+        "Slashing",
+        "from non-magical attacks"
+      ],
+      "conditionImmunities": [
+        "Charmed",
+        "Exhaustion",
+        "Frightened",
+        "Paralyzed",
+        "Petrified",
+        "Poisoned",
+        "Stunned"
+      ],
+      "senses": [
+        "blindsight 30 ft.",
+        "darkvision 60 ft."
+      ],
+      "languages": [
+        "understands Modron and the language of its owner but can't speak"
+      ],
+      "challengeRating": 6,
+      "experiencePoints": 2300,
+      "legendaryActionsPerRound": 3,
+      "legendaryActionsDescription": "",
+      "savingThrows": [
+        
+      ],
+      "skills": [
+        {
+          "name": "Perception",
+          "proficient": true
+        },
+        {
+          "name": "Stealth",
+          "proficient": true
+        },
+        {
+          "name": "Survival",
+          "proficient": true
+        }
+      ],
+      "additionalAbilities": [
+        {
+          "name": "Innate Spellcasting",
+          "description": "The steel predator's innate spellcasting ability is Wisdom (spell save DC 15, +7 to hit with spell attacks). It can innately cast the following spells, requiring no material components:\n\n3/day: <i>dimension door</i> (self only), <i>plane shift</i> (self only)"
+        },
+        {
+          "name": "Magic Resistance",
+          "description": "The steel predator has advantage on saving throws against spells and other magical effects."
+        },
+        {
+          "name": "Magic Weapons",
+          "description": "The steel predator's weapon attacks are magical."
+        }
+      ],
+      "actions": [
+        {
+          "name": "Multiattack",
+          "description": "The steel predator makes three attacks: one with its bite and two with its claw."
+        },
+        {
+          "name": "Bite",
+          "description": "<i>Melee Weapon Attack:</i> +12 to hit, reach 5 ft., one target. <i>Hit:</i> 14 (2d6 + 7) piercing damage."
+        },
+        {
+          "name": "Claw",
+          "description": "<i>Melee Weapon Attack:</i> +12 to hit, reach 5 ft., one target. <i>Hit:</i> 16 (2d8 + 7) slashing damage."
+        },
+        {
+          "name": "Stunning Roar (Recharge 5-6)",
+          "description": "The steel predator emits a roar in a 60-foot cone. Each creature in that area must make a DC 19 Constitution saving throw. On a failed save, a creature takes 27 (5d10) thunder damage, drops everything it's holding, and is stunned for 1 minute. On a successful save, a creature takes half as much damage. The stunned creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+        }
+      ],
+      "reactions": [
+        
+      ],
+      "legendaryActions": [
+        
+      ],
+      "hitDieSize": 10
+    },
+    "sharing": {
+      "linkSharingEnabled": false
+    },
+    "_id": "5ea4b8be63a0580dfd76d3ee",
+    "name": "Steel Predator",
+    "__v": 0,
+    "publishedBestiaryId": "5ea4b8b463a0580dfd76d379"
+  },
+  {
+    "flavor": {
+      "faction": "",
+      "environment": "",
+      "description": "",
+      "nameIsProper": false,
+      "imageUrl": ""
+    },
+    "stats": {
+      "size": "Medium",
+      "race": "Construct",
+      "alignment": "Lawful Evil",
+      "armorType": "natural armor",
+      "armorClass": 17,
+      "numHitDie": 3,
+      "speed": "10 ft.",
+      "abilityScores": {
+        "strength": 16,
+        "dexterity": 5,
+        "constitution": 14,
+        "intelligence": 5,
+        "wisdom": 8,
+        "charisma": 7
+      },
+      "proficiencyBonus": 2,
+      "damageVulnerabilities": [
+        "Bludgeoning"
+      ],
+      "damageResistances": [
+        
+      ],
+      "damageImmunities": [
+        "Poison"
+      ],
+      "conditionImmunities": [
+        "Charmed",
+        "Exhaustion",
+        "Frightened",
+        "Petrified",
+        "Poisoned"
+      ],
+      "senses": [
+        
+      ],
+      "languages": [
+        "the languages it knew in life"
+      ],
+      "challengeRating": 1,
+      "experiencePoints": 200,
+      "legendaryActionsPerRound": 3,
+      "legendaryActionsDescription": "",
+      "savingThrows": [
+        
+      ],
+      "skills": [
+        
+      ],
+      "additionalAbilities": [
+        {
+          "name": "Cunning Opportunist",
+          "description": "The stone cursed has advantage on the attack rolls of opportunity attacks."
+        },
+        {
+          "name": "False Appearance",
+          "description": "While the stone cursed remains motionless, it is indistinguishable from a  normal statue."
+        }
+      ],
+      "actions": [
+        {
+          "name": "Petrifying Claws",
+          "description": "<i>Melee Weapon Attack:</i> +5 to hit, reach 5 ft., one target. <i>Hit:</i> 8 (1d10 + 3) slashing damage, or 14 (2d10 + 3) slashing damage if the attack roll had advantage. If the target is a creature, it must succeed on a DC 12 Constitution saving throw, or it begins to turn to stone and is restrained until the end of its next turn, when it must repeat the saving throw. The effect ends if the second save is  successful; otherwise the target is petrified for 24 hours."
+        }
+      ],
+      "reactions": [
+        
+      ],
+      "legendaryActions": [
+        
+      ],
+      "hitDieSize": 8
+    },
+    "sharing": {
+      "linkSharingEnabled": false
+    },
+    "_id": "5ea4b8bc63a0580dfd76d3dc",
+    "name": "Stone Cursed",
+    "__v": 0,
+    "publishedBestiaryId": "5ea4b8b463a0580dfd76d379"
+  },
+  {
+    "flavor": {
+      "faction": "",
+      "environment": "",
+      "description": "",
+      "nameIsProper": false,
+      "imageUrl": ""
+    },
+    "stats": {
+      "size": "Medium",
+      "race": "Construct",
+      "alignment": "Unaligned",
+      "armorType": "natural armor",
+      "armorClass": 16,
+      "numHitDie": 7,
+      "speed": "30 ft.",
+      "abilityScores": {
+        "strength": 19,
+        "dexterity": 10,
+        "constitution": 17,
+        "intelligence": 3,
+        "wisdom": 10,
+        "charisma": 1
+      },
+      "proficiencyBonus": 2,
+      "damageVulnerabilities": [
+        
+      ],
+      "damageResistances": [
+        
+      ],
+      "damageImmunities": [
+        "Poison",
+        "Bludgeoning",
+        "Piercing",
+        "Slashing",
+        "from non-magical attacks that aren't adamantine"
+      ],
+      "conditionImmunities": [
+        "Charmed",
+        "Exhaustion",
+        "Frightened",
+        "Paralyzed",
+        "Petrified",
+        "Poisoned"
+      ],
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "languages": [
+        "understands one language of its creator but can't speak"
+      ],
+      "challengeRating": 4,
+      "experiencePoints": 1100,
+      "legendaryActionsPerRound": 3,
+      "legendaryActionsDescription": "",
+      "savingThrows": [
+        
+      ],
+      "skills": [
+        
+      ],
+      "additionalAbilities": [
+        {
+          "name": "False Appearance",
+          "description": "While the stone defender remains motionless against an uneven earthen or stone surface, it is indistinguishable from that surface."
+        },
+        {
+          "name": "Magic Resistance",
+          "description": "The stone defender has advantage on saving throws against spells and other magical effects."
+        }
+      ],
+      "actions": [
+        {
+          "name": "Slam",
+          "description": "<i>Melee Weapon Attack:</i> +6 to hit, reach 5 ft., one target. <i>Hit:</i> 11 (2d6 + 4) bludgeoning damage, and if the target is Large or smaller, it is knocked prone."
+        }
+      ],
+      "reactions": [
+        {
+          "name": "Intercept Attack",
+          "description": "In response to another creature within 5 feet of it being hit by an attack roll, the stone defender gives that creature a +5 bonus to its AC against that attack, potentially causing a miss. To use this ability, the stone defender must be able to see the creature and the attacker."
+        }
+      ],
+      "legendaryActions": [
+        
+      ],
+      "hitDieSize": 8
+    },
+    "sharing": {
+      "linkSharingEnabled": false
+    },
+    "_id": "5ea4b8bc63a0580dfd76d3de",
+    "name": "Stone Defender",
+    "__v": 0,
+    "publishedBestiaryId": "5ea4b8b463a0580dfd76d379"
+  },
+  {
+    "flavor": {
+      "faction": "",
+      "environment": "",
+      "description": "",
+      "nameIsProper": false,
+      "imageUrl": ""
+    },
+    "stats": {
+      "size": "Medium",
+      "race": "fey (elf)",
+      "alignment": "Chaotic Neutral",
+      "armorType": "natural armor",
+      "armorClass": 19,
+      "numHitDie": 17,
+      "speed": "50 ft.",
+      "abilityScores": {
+        "strength": 19,
+        "dexterity": 21,
+        "constitution": 16,
+        "intelligence": 14,
+        "wisdom": 12,
+        "charisma": 18
+      },
+      "proficiencyBonus": 4,
+      "damageVulnerabilities": [
+        
+      ],
+      "damageResistances": [
+        "Bludgeoning",
+        "Piercing",
+        "Slashing",
+        "from non-magical attacks"
+      ],
+      "damageImmunities": [
+        
+      ],
+      "conditionImmunities": [
+        
+      ],
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "languages": [
+        "Common",
+        "Elvish",
+        "Sylvan"
+      ],
+      "challengeRating": 10,
+      "experiencePoints": 5900,
+      "legendaryActionsPerRound": 3,
+      "legendaryActionsDescription": "",
+      "savingThrows": [
+        
+      ],
+      "skills": [
+        {
+          "name": "Athletics",
+          "proficient": true
+        },
+        {
+          "name": "Intimidation",
+          "proficient": true
+        }
+      ],
+      "additionalAbilities": [
+        {
+          "name": "Fearsome Presence",
+          "description": "Any non-eladrin creature that starts its turn within 60 feet of the eladrin must make on a DC 16 Wisdom saving throw. On a failed save, the creature becomes frightened of the eladrin for 1 minute. A creature can repeat the saving throw on the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature becomes immune to any eladrin's Fearsome Presence for 24 hours."
+        },
+        {
+          "name": "Fey Step (Recharge 4-6)",
+          "description": "As a bonus action, the eladrin can teleport up to 30 feet to an unoccupied space it can see."
+        },
+        {
+          "name": "Magic Resistance",
+          "description": "The eladrin has advantage on saving throws against spells and other magical effects."
+        }
+      ],
+      "actions": [
+        {
+          "name": "Multiattack",
+          "description": "The eladrin makes two weapon attacks."
+        },
+        {
+          "name": "Longsword",
+          "description": "<i>Melee Weapon Attack:</i> +8 to hit, reach 5 ft., one target. <i>Hit:</i> 13 (2d8 + 4) slashing damage, or 15 (2d10 + 4) slashing damage if used with two hands, plus 4 (1d8) fire damage."
+        },
+        {
+          "name": "Longbow",
+          "description": "<i>Ranged Weapon Attack:</i> +9 to hit, range 150/600 ft., one target. <i>Hit:</i> 14 (2d8 + 5) piercing damage plus 4 (1d8) fire damage."
+        }
+      ],
+      "reactions": [
+        {
+          "name": "Parry",
+          "description": "The eladrin adds 3 to its AC against one melee attack that would hit it. To do so, the eladrin must see the attacker and be wielding a melee weapon."
+        }
+      ],
+      "legendaryActions": [
+        
+      ],
+      "hitDieSize": 8
+    },
+    "sharing": {
+      "linkSharingEnabled": false
+    },
+    "_id": "5ea4b8bd63a0580dfd76d3e3",
+    "name": "Summer Eladrin",
+    "__v": 0,
+    "publishedBestiaryId": "5ea4b8b463a0580dfd76d379"
+  },
+  {
+    "flavor": {
+      "faction": "",
+      "environment": "",
+      "description": "",
+      "nameIsProper": false,
+      "imageUrl": ""
+    },
+    "stats": {
+      "size": "Medium",
+      "race": "Undead",
+      "alignment": "Lawful Evil",
+      "armorType": "breastplate, shield",
+      "armorClass": 18,
+      "numHitDie": 15,
+      "speed": "30 ft.",
+      "abilityScores": {
+        "strength": 18,
+        "dexterity": 14,
+        "constitution": 18,
+        "intelligence": 11,
+        "wisdom": 12,
+        "charisma": 14
+      },
+      "proficiencyBonus": 3,
+      "damageVulnerabilities": [
+        
+      ],
+      "damageResistances": [
+        "Necrotic",
+        "Bludgeoning",
+        "Piercing",
+        "Slashing",
+        "from non-magical attacks"
+      ],
+      "damageImmunities": [
+        "Poison"
+      ],
+      "conditionImmunities": [
+        "Exhaustion",
+        "Frightened",
+        "Poisoned",
+        "Unconscious"
+      ],
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "languages": [
+        "the languages it knew in life"
+      ],
+      "challengeRating": 8,
+      "experiencePoints": 3900,
+      "legendaryActionsPerRound": 3,
+      "legendaryActionsDescription": "",
+      "savingThrows": [
+        
+      ],
+      "skills": [
+        {
+          "name": "Perception",
+          "proficient": true
+        }
+      ],
+      "additionalAbilities": [
+        {
+          "name": "Martial Fury",
+          "description": "As a bonus action, the sword wraith can make one weapon attack, which deals an extra 9 (2d8) necrotic damage on a hit. If it does so, attack rolls against it have advantage until the start of its next turn."
+        },
+        {
+          "name": "Turning Defiance",
+          "description": "The sword wraith and any other sword wraiths within 30 feet of it have advantage on saving throws against effects that turn undead."
+        }
+      ],
+      "actions": [
+        {
+          "name": "Multiattack",
+          "description": "The sword wraith makes two weapon attacks."
+        },
+        {
+          "name": "Longsword",
+          "description": "<i>Melee Weapon Attack:</i> +7 to hit, reach 5 ft., one target. <i>Hit:</i> 8 (1d8 + 4) slashing damage, or 9 (1d10 + 4) slashing damage if used with two hands."
+        },
+        {
+          "name": "Longbow",
+          "description": "<i>Ranged Weapon Attack:</i> +5 to hit, range 150/600 ft., one target. <i>Hit:</i> 6 (1d8 + 2) piercing damage."
+        },
+        {
+          "name": "Call to Honor (1/Day)",
+          "description": "To use this action, the sword wraith must have taken damage during the current combat. If the sword wraith can use this action, it gives itself advantage on attack rolls until the end of its next turn, and 1d4 + 1 sword wraith warriors appear in unoccupied spaces within 30 feet of it. The warriors last until they drop to 0 hit points, and they take their turns immediately after the commander's turn on the same initiative count."
+        }
+      ],
+      "reactions": [
+        
+      ],
+      "legendaryActions": [
+        
+      ],
+      "hitDieSize": 8
+    },
+    "sharing": {
+      "linkSharingEnabled": false
+    },
+    "_id": "5ea4b8bd63a0580dfd76d3e1",
+    "name": "Sword Wraith Commander",
+    "__v": 0,
+    "publishedBestiaryId": "5ea4b8b463a0580dfd76d379"
+  },
+  {
+    "flavor": {
+      "faction": "",
+      "environment": "",
+      "description": "",
+      "nameIsProper": false,
+      "imageUrl": ""
+    },
+    "stats": {
+      "size": "Medium",
+      "race": "Undead",
+      "alignment": "Lawful Evil",
+      "armorType": "chain shirt, shield",
+      "armorClass": 16,
+      "numHitDie": 6,
+      "speed": "30 ft.",
+      "abilityScores": {
+        "strength": 18,
+        "dexterity": 12,
+        "constitution": 17,
+        "intelligence": 6,
+        "wisdom": 9,
+        "charisma": 10
+      },
+      "proficiencyBonus": 2,
+      "damageVulnerabilities": [
+        
+      ],
+      "damageResistances": [
+        "Necrotic",
+        "Bludgeoning",
+        "Piercing",
+        "Slashing",
+        "from non-magical attacks"
+      ],
+      "damageImmunities": [
+        "Poison"
+      ],
+      "conditionImmunities": [
+        "Exhaustion",
+        "Frightened",
+        "Poisoned",
+        "Unconscious"
+      ],
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "languages": [
+        "the languages in knew in life"
+      ],
+      "challengeRating": 3,
+      "experiencePoints": 700,
+      "legendaryActionsPerRound": 3,
+      "legendaryActionsDescription": "",
+      "savingThrows": [
+        
+      ],
+      "skills": [
+        
+      ],
+      "additionalAbilities": [
+        {
+          "name": "Martial Fury",
+          "description": "As a bonus action, the sword wraith can make one weapon attack. If it does so, attack rolls against it have advantage until the start of its next turn."
+        }
+      ],
+      "actions": [
+        {
+          "name": "Longsword",
+          "description": "<i>Melee Weapon Attack:</i> +6 to hit, reach 5 ft., one target. <i>Hit:</i> 8 (1d8 + 4) slashing damage, or 9 (1d10 + 4) slashing damage if used with two hands."
+        },
+        {
+          "name": "Longbow",
+          "description": "<i>Ranged Weapon Attack:</i> +3 to hit, range 150/600 ft., one target. <i>Hit:</i> 5 (1d8 + 1) piercing damage."
+        }
+      ],
+      "reactions": [
+        
+      ],
+      "legendaryActions": [
+        
+      ],
+      "hitDieSize": 8
+    },
+    "sharing": {
+      "linkSharingEnabled": false
+    },
+    "_id": "5ea4b8bd63a0580dfd76d3df",
+    "name": "Sword Wraith Warrior",
+    "__v": 0,
+    "publishedBestiaryId": "5ea4b8b463a0580dfd76d379"
+  },
+  {
+    "flavor": {
+      "faction": "",
+      "environment": "",
+      "description": "",
+      "nameIsProper": false,
+      "imageUrl": ""
+    },
+    "stats": {
+      "size": "Medium",
+      "race": "monstrosity",
+      "alignment": "Neutral Evil",
+      "armorType": "natural armor",
+      "armorClass": 18,
+      "numHitDie": 30,
+      "speed": "30 ft.",
+      "abilityScores": {
+        "strength": 17,
+        "dexterity": 10,
+        "constitution": 19,
+        "intelligence": 8,
+        "wisdom": 13,
+        "charisma": 6
+      },
+      "proficiencyBonus": 5,
+      "damageVulnerabilities": [
+        
+      ],
+      "damageResistances": [
+        "Bludgeoning",
+        "Piercing",
+        "Slashing",
+        "while in dim light or darkness"
+      ],
+      "damageImmunities": [
+        
+      ],
+      "conditionImmunities": [
+        
+      ],
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "languages": [
+        "Common"
+      ],
+      "challengeRating": 13,
+      "experiencePoints": 10000,
+      "legendaryActionsPerRound": 3,
+      "legendaryActionsDescription": "",
+      "savingThrows": [
+        
+      ],
+      "skills": [
+        {
+          "name": "Perception",
+          "proficient": true
+        }
+      ],
+      "additionalAbilities": [
+        {
+          "name": "Two Heads",
+          "description": "The Angry has advantage on Wisdom (Perception) checks and on saving throws against being blinded, charmed, deafened, frightened, stunned, or knocked unconscious."
+        },
+        {
+          "name": "Rising Anger",
+          "description": "If another creature deals damage to the Angry, the Angry's attack rolls have advantage until the end of its next turn, and the first time it hits with a hook attack on its next turn, the attack's target takes an extra 19 (3d12) psychic damage. \nOn its turn, the Angry has disadvantage on attack rolls if no other creature has dealt damage to it since the end of its last turn."
+        }
+      ],
+      "actions": [
+        {
+          "name": "Multiattack",
+          "description": "The Angry makes two hook attacks."
+        },
+        {
+          "name": "Hook",
+          "description": "<i>Melee Weapon Attack:</i> +8 to hit, reach 5 ft., one target. <i>Hit:</i> 16 (2d12 + 3) piercing damage."
+        }
+      ],
+      "reactions": [
+        
+      ],
+      "legendaryActions": [
+        
+      ],
+      "hitDieSize": 8
+    },
+    "sharing": {
+      "linkSharingEnabled": false
+    },
+    "_id": "5ea4b8bd63a0580dfd76d3e2",
+    "name": "The Angry",
+    "__v": 0,
+    "publishedBestiaryId": "5ea4b8b463a0580dfd76d379"
+  },
+  {
+    "flavor": {
+      "faction": "",
+      "environment": "",
+      "description": "",
+      "nameIsProper": false,
+      "imageUrl": ""
+    },
+    "stats": {
+      "size": "Medium",
+      "race": "Monstrosity",
+      "alignment": "Neutral Evil",
+      "armorType": "natural armor",
+      "armorClass": 17,
+      "numHitDie": 30,
+      "speed": "30 ft.",
+      "abilityScores": {
+        "strength": 19,
+        "dexterity": 10,
+        "constitution": 17,
+        "intelligence": 6,
+        "wisdom": 11,
+        "charisma": 6
+      },
+      "proficiencyBonus": 4,
+      "damageVulnerabilities": [
+        
+      ],
+      "damageResistances": [
+        "Bludgeoning",
+        "Piercing",
+        "Slashing",
+        "while in dim light or darkness"
+      ],
+      "damageImmunities": [
+        
+      ],
+      "conditionImmunities": [
+        
+      ],
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "languages": [
+        "Common"
+      ],
+      "challengeRating": 11,
+      "experiencePoints": 7200,
+      "legendaryActionsPerRound": 3,
+      "legendaryActionsDescription": "",
+      "savingThrows": [
+        
+      ],
+      "skills": [
+        
+      ],
+      "additionalAbilities": [
+        {
+          "name": "Life Hunger",
+          "description": "If a creature the Hungry can see regains hit points, the Hungry gains two benefits until the end of its next turn: it has advantage on attack rolls, and its bite deals an extra 22 (4d10) necrotic damage on a hit."
+        }
+      ],
+      "actions": [
+        {
+          "name": "Multiattack",
+          "description": "The Hungry makes two attacks: one with its bite and one with its claws."
+        },
+        {
+          "name": "Bite",
+          "description": "<i>Melee Weapon Attack:</i> +8 to hit, reach 5 ft., one target. <i>Hit:</i> 8 (1d8 + 4) piercing damage plus 13 (3d8) necrotic damage."
+        },
+        {
+          "name": "Claws",
+          "description": "<i>Melee Weapon Attack:</i> +8 to hit, reach 10 ft., one target. <i>Hit:</i> 18 (4d6 + 4) slashing damage. If the target is  Medium or smaller, it is grappled (escape DC 16) and restrained until the grapple ends. While grappling a creature, the Hungry can't attack with its claws."
+        }
+      ],
+      "reactions": [
+        
+      ],
+      "legendaryActions": [
+        
+      ],
+      "hitDieSize": 8
+    },
+    "sharing": {
+      "linkSharingEnabled": false
+    },
+    "_id": "5ea4b8bd63a0580dfd76d3e6",
+    "name": "The Hungry",
+    "__v": 0,
+    "publishedBestiaryId": "5ea4b8b463a0580dfd76d379"
+  },
+  {
+    "flavor": {
+      "faction": "",
+      "environment": "",
+      "description": "",
+      "nameIsProper": false,
+      "imageUrl": ""
+    },
+    "stats": {
+      "size": "Medium",
+      "race": "Monstrosity",
+      "alignment": "Neutral Evil",
+      "armorType": "natural armor",
+      "armorClass": 16,
+      "numHitDie": 15,
+      "speed": "30 ft.",
+      "abilityScores": {
+        "strength": 16,
+        "dexterity": 12,
+        "constitution": 17,
+        "intelligence": 6,
+        "wisdom": 11,
+        "charisma": 6
+      },
+      "proficiencyBonus": 4,
+      "damageVulnerabilities": [
+        
+      ],
+      "damageResistances": [
+        "Bludgeoning",
+        "Piercing",
+        "Slashing",
+        "while in dim light or darkness"
+      ],
+      "damageImmunities": [
+        
+      ],
+      "conditionImmunities": [
+        
+      ],
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "languages": [
+        "Common"
+      ],
+      "challengeRating": 9,
+      "experiencePoints": 5000,
+      "legendaryActionsPerRound": 3,
+      "legendaryActionsDescription": "",
+      "savingThrows": [
+        
+      ],
+      "skills": [
+        
+      ],
+      "additionalAbilities": [
+        {
+          "name": "Psychic Leech",
+          "description": "At the start of each of the Lonely's turns, each creature within 5 feet of it must succeed on a DC 15 Wisdom saving throw or take 10 (3d6) psychic damage."
+        },
+        {
+          "name": "Thrives on Company",
+          "description": "The Lonely has advantage on attack rolls while it is within 30 feet of at least two other creatures. It otherwise has disadvantage on attack rolls."
+        }
+      ],
+      "actions": [
+        {
+          "name": "Multiattack",
+          "description": "The Lonely makes one harpoon arm attacks and uses Sorrowful Embrace."
+        },
+        {
+          "name": "Harpoon Arm",
+          "description": "<i>Melee Weapon Attack:</i> +7 to hit, reach 60 ft., one target. <i>Hit:</i> 21 (4d8 + 3) piercing damage, and the target is grappled (escape DC 15) if it is a Large or smaller creature. The Lonely has two harpoon arms and can grapple up to two creatures at once."
+        },
+        {
+          "name": "Sorrowful Embrace",
+          "description": "Each creature grappled by the Lonely must make a DC 15 Wisdom saving throw. A creature takes 18 (4d8) psychic damage on a failed save, or half as much damage on a successful one. In either case, the Lonely pulls each creature grappled by it up to 30 feet straight toward it."
+        }
+      ],
+      "reactions": [
+        
+      ],
+      "legendaryActions": [
+        
+      ],
+      "hitDieSize": 8
+    },
+    "sharing": {
+      "linkSharingEnabled": false
+    },
+    "_id": "5ea4b8bd63a0580dfd76d3e4",
+    "name": "The Lonely",
+    "__v": 0,
+    "publishedBestiaryId": "5ea4b8b463a0580dfd76d379"
+  },
+  {
+    "flavor": {
+      "faction": "",
+      "environment": "",
+      "description": "",
+      "nameIsProper": false,
+      "imageUrl": ""
+    },
+    "stats": {
+      "size": "Medium",
+      "race": "Monstrosity",
+      "alignment": "Neutral Evil",
+      "armorType": "natural armor",
+      "armorClass": 15,
+      "numHitDie": 12,
+      "speed": "30 ft.",
+      "abilityScores": {
+        "strength": 17,
+        "dexterity": 12,
+        "constitution": 15,
+        "intelligence": 6,
+        "wisdom": 7,
+        "charisma": 5
+      },
+      "proficiencyBonus": 3,
+      "damageVulnerabilities": [
+        
+      ],
+      "damageResistances": [
+        "Bludgeoning",
+        "Piercing",
+        "Slashing",
+        "while in dim light or darkness"
+      ],
+      "damageImmunities": [
+        
+      ],
+      "conditionImmunities": [
+        
+      ],
+      "senses": [
+        "darkvision 60ft."
+      ],
+      "languages": [
+        "Common"
+      ],
+      "challengeRating": 7,
+      "experiencePoints": 2900,
+      "legendaryActionsPerRound": 3,
+      "legendaryActionsDescription": "",
+      "savingThrows": [
+        
+      ],
+      "skills": [
+        {
+          "name": "Athletics",
+          "proficient": true
+        }
+      ],
+      "additionalAbilities": [
+        
+      ],
+      "actions": [
+        {
+          "name": "Multiattack",
+          "description": "The Lost makes two arm spike attacks."
+        },
+        {
+          "name": "Arm Spike",
+          "description": "<i>Melee Weapon Attack:</i> +6 to hit, reach 5 ft., one target. <i>Hit:</i> 14 (2d10 + 3) piercing damage."
+        },
+        {
+          "name": "Embrace",
+          "description": "<i>Melee Weapon Attack:</i> +6 to hit, reach 5 ft., one target. <i>Hit:</i> 25 (4d10 + 3) piercing damage, and the target is grappled (escape DC 14) if it is a Medium or smaller creature. Until the grapple ends, the target is frightened, and it takes 27 (6d8) psychic damage at the end of each of its turns. The Lost can embrace only one creature at a time."
+        }
+      ],
+      "reactions": [
+        {
+          "name": "Tightening Embrace",
+          "description": "If the Lost takes damage while it has a creature grappled, that creature takes 18 (4d8) psychic damage."
+        }
+      ],
+      "legendaryActions": [
+        
+      ],
+      "hitDieSize": 8
+    },
+    "sharing": {
+      "linkSharingEnabled": false
+    },
+    "_id": "5ea4b8bd63a0580dfd76d3e5",
+    "name": "The Lost",
+    "__v": 0,
+    "publishedBestiaryId": "5ea4b8b463a0580dfd76d379"
+  },
+  {
+    "flavor": {
+      "faction": "",
+      "environment": "",
+      "description": "",
+      "nameIsProper": false,
+      "imageUrl": ""
+    },
+    "stats": {
+      "size": "Small",
+      "race": "Monstrosity",
+      "alignment": "Neutral Evil",
+      "armorType": "natural armor",
+      "armorClass": 15,
+      "numHitDie": 4,
+      "speed": "40 ft.",
+      "abilityScores": {
+        "strength": 7,
+        "dexterity": 12,
+        "constitution": 9,
+        "intelligence": 5,
+        "wisdom": 6,
+        "charisma": 5
+      },
+      "proficiencyBonus": 2,
+      "damageVulnerabilities": [
+        
+      ],
+      "damageResistances": [
+        "Bludgeoning",
+        "Piercing",
+        "Slashing",
+        "while in dim light or darkness"
+      ],
+      "damageImmunities": [
+        
+      ],
+      "conditionImmunities": [
+        
+      ],
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "languages": [
+        
+      ],
+      "challengeRating": 0.25,
+      "experiencePoints": 50,
+      "legendaryActionsPerRound": 3,
+      "legendaryActionsDescription": "",
+      "savingThrows": [
+        
+      ],
+      "skills": [
+        
+      ],
+      "additionalAbilities": [
+        {
+          "name": "Wretched Pack Tactics",
+          "description": "The Wretched has advantage on an attack roll against a creature if at least one of the Wretched's allies is within 5 feet of the creature and the ally isn't incapacitated. The Wretched otherwise has disadvantage on attack rolls."
+        }
+      ],
+      "actions": [
+        {
+          "name": "Bite",
+          "description": "<i>Melee Weapon Attack:</i> +3 to hit, reach 5 ft., one target. <i>Hit:</i> 6 (1d10 + 1) piercing damage, and the Wretched attaches to the target. While attached, the Wretched can't attack, and at the start of each of the Wretched's turns, the target takes 6 (1d10 + 1) necrotic damage. \nThe attached Wretched moves with the target whenever the target moves, requiring none of the Wretched's movement. The Wretched can detach itself by spending 5 feet of its movement on its turn. A creature, including the target, can use its action to detach a Wretched."
+        }
+      ],
+      "reactions": [
+        
+      ],
+      "legendaryActions": [
+        
+      ],
+      "hitDieSize": 6
+    },
+    "sharing": {
+      "linkSharingEnabled": false
+    },
+    "_id": "5ea4b8bd63a0580dfd76d3e7",
+    "name": "The Wretched",
+    "__v": 0,
+    "publishedBestiaryId": "5ea4b8b463a0580dfd76d379"
+  },
+  {
+    "flavor": {
+      "faction": "",
+      "environment": "",
+      "description": "",
+      "nameIsProper": true,
+      "imageUrl": ""
+    },
+    "stats": {
+      "size": "Medium",
+      "race": "fiend (devil)",
+      "alignment": "Lawful Evil",
+      "armorType": "natural armor",
+      "armorClass": 20,
+      "numHitDie": 17,
+      "speed": "40 ft., fly 60 ft.",
+      "abilityScores": {
+        "strength": 19,
+        "dexterity": 22,
+        "constitution": 17,
+        "intelligence": 24,
+        "wisdom": 22,
+        "charisma": 26
+      },
+      "proficiencyBonus": 5,
+      "damageVulnerabilities": [
+        
+      ],
+      "damageResistances": [
+        "Cold",
+        "Bludgeoning",
+        "Piercing",
+        "Slashing",
+        "from non-magical attacks that aren't silvered"
+      ],
+      "damageImmunities": [
+        "Fire",
+        "Poison"
+      ],
+      "conditionImmunities": [
+        "Charmed",
+        "Exhaustion",
+        "Frightened",
+        "Poisoned"
+      ],
+      "senses": [
+        "darkvision 120 ft."
+      ],
+      "languages": [
+        "all",
+        "telepathy 120 ft."
+      ],
+      "challengeRating": 16,
+      "experiencePoints": 15000,
+      "legendaryActionsPerRound": 3,
+      "legendaryActionsDescription": "Titivilus can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. Titivilus regains spent legendary actions at the start of his turn.",
+      "savingThrows": [
+        {
+          "ability": "dexterity",
+          "proficient": true
+        },
+        {
+          "ability": "constitution",
+          "proficient": true
+        },
+        {
+          "ability": "wisdom",
+          "proficient": true
+        },
+        {
+          "ability": "charisma",
+          "proficient": true
+        }
+      ],
+      "skills": [
+        {
+          "name": "Deception",
+          "proficient": true
+        },
+        {
+          "name": "Insight",
+          "proficient": true
+        },
+        {
+          "name": "Intimidation",
+          "proficient": true
+        },
+        {
+          "name": "Persuasion",
+          "proficient": true
+        }
+      ],
+      "additionalAbilities": [
+        {
+          "name": "Innate Spellcasting",
+          "description": "Titivilus innate spellcasting ability is Charisma (spell save DC 21, +13 to hit with spell attacks). He can innately cast the following spells, requiring no material components:\n\nAt will: <i>alter self</i>, <i>animate dead</i>, <i>bestow curse</i>, <i>confusion</i>, <i>major image</i>, <i>modify memory</i>, <i>nondetection</i>, <i>sending</i>, <i>suggestion</i>\n3/day: <i>greater invisibility</i> (self only), <i>mislead</i>\n1/day: <i>feeblemind</i>, <i>symbol</i> (discord or sleep only)"
+        },
+        {
+          "name": "Legendary Resistance (3/Day)",
+          "description": "If Titivilius fails a saving throw, it can choose to succeed instead."
+        },
+        {
+          "name": "Magic Resistance",
+          "description": "Titivilus has advantage on saving throws against spells and other magical effects."
+        },
+        {
+          "name": "Magic Weapons",
+          "description": "Titivilus's weapon attacks are magical."
+        },
+        {
+          "name": "Regeneration",
+          "description": "Titivilus regains 10 hit points at the start of his turn. If he takes cold or radiant damage, this trait doesn't function at the start of his next turn. Titivilus dies only if he starts his turn with 0 hit points and doesn't regenerate."
+        },
+        {
+          "name": "Ventriloquism",
+          "description": "Whenever Titivilus speaks, he can choose a point within 60 feet; his voice emanates from that point."
+        }
+      ],
+      "actions": [
+        {
+          "name": "Multiattack",
+          "description": "Titivilus makes one sword attack and uses his Frightful Word once."
+        },
+        {
+          "name": "Silver Sword",
+          "description": "<i>Melee Weapon Attack:</i> +9 to hit, reach 5 ft., one target. <i>Hit:</i> 8 (1d8 + 4) slashing damage, or 9 (1d10 + 4) slashing damage if used with two hands, plus 16 (3d10) necrotic damage. If the target is a creature, its hit point maximum is reduced by an amount equal to half the necrotic damage it takes."
+        },
+        {
+          "name": "Frightful Word",
+          "description": "Titivilus targets one creature he can see within 10 feet of him. The target must succeed on a DC 21 Wisdom saving throw or become frightened of him for 1 minute. While frightened in this way, the target must take the Dash action and move away from Titivilus by the safest available route on each of its turns, unless there is nowhere to move, in which case it needn't take the Dash action. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+        },
+        {
+          "name": "Teleport",
+          "description": "Titivilus magically teleports, along with any equipment he is wearing and carrying, up to 120 feet to an unoccupied space he can see."
+        },
+        {
+          "name": "Twisting Words",
+          "description": "Titivilus targets one creature he can see within 60 feet of him. The target must succeed on a DC 21 Charisma saving throw or become charmed by Titivilus for 1 minute. The charmed target can repeat the saving throw if Titivilus deals any damage to it. A creature that succeeds on the saving throw is immune to Titivilus's Twisting Words for 24 hours."
+        }
+      ],
+      "reactions": [
+        
+      ],
+      "legendaryActions": [
+        {
+          "name": "Assault (Costs 2 Actions)",
+          "description": "Titivilus attacks with his silver sword or uses his Frightful Word."
+        },
+        {
+          "name": "Corrupting Words",
+          "description": "Titivilus uses Twisting Words. Alternatively, he targets one creature charmed by him that is within 60 feet of him; that charmed target must make a DC 21 Charisma saving throw. On a failure, Titivilus decides how the target acts during its next turn."
+        },
+        {
+          "name": "Teleport",
+          "description": "Titivilus uses his Teleport action."
+        }
+      ],
+      "hitDieSize": 8
+    },
+    "sharing": {
+      "linkSharingEnabled": false
+    },
+    "_id": "5ea4b8bd63a0580dfd76d3ea",
+    "name": "Titivilus",
+    "__v": 0,
+    "publishedBestiaryId": "5ea4b8b463a0580dfd76d379"
+  },
+  {
+    "flavor": {
+      "faction": "",
+      "environment": "",
+      "description": "",
+      "nameIsProper": false,
+      "imageUrl": ""
+    },
+    "stats": {
+      "size": "Medium",
+      "race": "Humanoid (tortle)",
+      "alignment": "Lawful Good",
+      "armorType": "natural",
+      "armorClass": 17,
+      "numHitDie": 4,
+      "speed": "30 ft.",
+      "abilityScores": {
+        "strength": 15,
+        "dexterity": 10,
+        "constitution": 12,
+        "intelligence": 11,
+        "wisdom": 13,
+        "charisma": 12
+      },
+      "proficiencyBonus": 2,
+      "damageVulnerabilities": [
+        
+      ],
+      "damageResistances": [
+        
+      ],
+      "damageImmunities": [
+        
+      ],
+      "conditionImmunities": [
+        
+      ],
+      "senses": [
+        
+      ],
+      "languages": [
+        "Aquan",
+        "Common"
+      ],
+      "challengeRating": 0.25,
+      "experiencePoints": 50,
+      "legendaryActionsPerRound": 3,
+      "legendaryActionsDescription": "",
+      "savingThrows": [
+        
+      ],
+      "skills": [
+        {
+          "name": "Athletics",
+          "proficient": true
+        },
+        {
+          "name": "Survival",
+          "proficient": true
+        }
+      ],
+      "additionalAbilities": [
+        {
+          "name": "Hold Breath",
+          "description": "The tortle can hold its breath for 1 hour."
+        }
+      ],
+      "actions": [
+        {
+          "name": "Claws",
+          "description": "<i>Melee Weapon Attack:</i> +4 to hit, reach 5 ft., one target. <i>Hit:</i> 4 (1d4 + 2) slashing damage."
+        },
+        {
+          "name": "Quarterstaff",
+          "description": "<i>Melee Weapon Attack:</i> +4 to hit, reach 5 ft., one target. <i>Hit:</i> 5 (1d6 + 2) bludgeoning damage, or 6 (1d8 + 2) bludgeoning damage if used with two."
+        },
+        {
+          "name": "Light Crossbow",
+          "description": "<i>Ranged Weapon Attack:</i> +2 to hit, range 80/320 ft., one target. <i>Hit:</i> 4 (1d8) piercing damage."
+        },
+        {
+          "name": "Shell Defense",
+          "description": "The tortle withdraws into its shell. Until it emerges, it gains a +4 bonus to AC and has advantage on Strength and Constitution saving throws. While in its shell, the tortle is prone, its speed is 0 and can't increase, it has disadvantage on Dexterity saving throws, it can't take reactions, and the only action it can take is a bonus action to emerge."
+        }
+      ],
+      "reactions": [
+        
+      ],
+      "legendaryActions": [
+        
+      ],
+      "hitDieSize": 8
+    },
+    "sharing": {
+      "linkSharingEnabled": false
+    },
+    "_id": "5ea4b8bd63a0580dfd76d3e8",
+    "name": "Tortle",
+    "__v": 0,
+    "publishedBestiaryId": "5ea4b8b463a0580dfd76d379"
+  },
+  {
+    "flavor": {
+      "faction": "",
+      "environment": "",
+      "description": "",
+      "nameIsProper": false,
+      "imageUrl": ""
+    },
+    "stats": {
+      "size": "Medium",
+      "race": "Humanoid (tortle)",
+      "alignment": "Lawful Neutral",
+      "armorType": "natural",
+      "armorClass": 17,
+      "numHitDie": 6,
+      "speed": "30 ft.",
+      "abilityScores": {
+        "strength": 14,
+        "dexterity": 10,
+        "constitution": 12,
+        "intelligence": 11,
+        "wisdom": 15,
+        "charisma": 12
+      },
+      "proficiencyBonus": 2,
+      "damageVulnerabilities": [
+        
+      ],
+      "damageResistances": [
+        
+      ],
+      "damageImmunities": [
+        
+      ],
+      "conditionImmunities": [
+        
+      ],
+      "senses": [
+        
+      ],
+      "languages": [
+        "Aquan",
+        "Common"
+      ],
+      "challengeRating": 2,
+      "experiencePoints": 450,
+      "legendaryActionsPerRound": 3,
+      "legendaryActionsDescription": "",
+      "savingThrows": [
+        
+      ],
+      "skills": [
+        {
+          "name": "Animal Handling",
+          "proficient": true
+        },
+        {
+          "name": "Nature",
+          "proficient": true
+        },
+        {
+          "name": "Survival",
+          "proficient": true
+        }
+      ],
+      "additionalAbilities": [
+        {
+          "name": "Hold Breath",
+          "description": "The tortle can hold its breath for 1 hour."
+        },
+        {
+          "name": "Spellcasting",
+          "description": "The tortle druid is a 4th-level spellcaster. The tortle druid's spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). The tortle druid has the following druid spells prepared:\n\nCantrip (at will): <i>druidcraft</i>, <i>guidance</i>, <i>produce flame</i>\n1st level (4 slots): <i>animal friendship</i>, <i>cure wounds</i>, <i>speak with animals</i>, <i>thunderwave</i>\n2nd level (3 slots): <i>darkvision</i>, <i>hold person</i>"
+        }
+      ],
+      "actions": [
+        {
+          "name": "Claw",
+          "description": "<i>Melee Weapon Attack:</i> +4 to hit, reach 5 ft., one target. <i>Hit:</i> 4 (1d4 + 2) slashing damage."
+        },
+        {
+          "name": "Quarterstaff",
+          "description": "<i>Melee Weapon Attack:</i> +4 to hit, reach 5 ft., one target. <i>Hit:</i> 5 (1d6 + 2) bludgeoning damage, or 6 (1d8 + 2) bludgeoning damage if used with two hands."
+        },
+        {
+          "name": "Shell Defense",
+          "description": "The tortle withdraws into its shell. Until it emerges, it gains a +4 bonus to AC and has advantage on Strength and Constitution saving throws. While in its shell, the tortle is prone, its speed is 0 and can't increase, it has disadvantage on Dexterity saving throws, it can't take reactions, and the only action it can take is a bonus action to emerge"
+        }
+      ],
+      "reactions": [
+        
+      ],
+      "legendaryActions": [
+        
+      ],
+      "hitDieSize": 8
+    },
+    "sharing": {
+      "linkSharingEnabled": false
+    },
+    "_id": "5ea4b8bd63a0580dfd76d3e9",
+    "name": "Tortle Druid",
+    "__v": 0,
+    "publishedBestiaryId": "5ea4b8b463a0580dfd76d379"
+  },
+  {
+    "flavor": {
+      "faction": "",
+      "environment": "",
+      "description": "",
+      "nameIsProper": false,
+      "imageUrl": ""
+    },
+    "stats": {
+      "size": "Medium",
+      "race": "Undead",
+      "alignment": "Chaotic Evil",
+      "armorType": null,
+      "armorClass": 13,
+      "numHitDie": 4,
+      "speed": "fly 30 ft. (hover)",
+      "abilityScores": {
+        "strength": 6,
+        "dexterity": 16,
+        "constitution": 16,
+        "intelligence": 6,
+        "wisdom": 12,
+        "charisma": 7
+      },
+      "proficiencyBonus": 2,
+      "damageVulnerabilities": [
+        
+      ],
+      "damageResistances": [
+        "Acid",
+        "Cold",
+        "Lightning",
+        "Necrotic",
+        "Thunder",
+        "Bludgeoning",
+        "Piercing",
+        "Slashing",
+        "from non-magical attacks"
+      ],
+      "damageImmunities": [
+        "Poison"
+      ],
+      "conditionImmunities": [
+        "Charmed",
+        "Exhaustion",
+        "Grappled",
+        "Paralyzed",
+        "Petrified",
+        "Poisoned",
+        "Prone",
+        "Restrained"
+      ],
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "languages": [
+        
+      ],
+      "challengeRating": 3,
+      "experiencePoints": 700,
+      "legendaryActionsPerRound": 3,
+      "legendaryActionsDescription": "",
+      "savingThrows": [
+        {
+          "ability": "wisdom",
+          "proficient": true
+        }
+      ],
+      "skills": [
+        
+      ],
+      "additionalAbilities": [
+        {
+          "name": "Life Sense",
+          "description": "The mist can sense the location of any creature within 60 feet of it, unless that creature's type is construct or undead."
+        },
+        {
+          "name": "Forbiddance",
+          "description": "The mist can't enter a residence without an invitation from one of the occupants."
+        },
+        {
+          "name": "Misty Form",
+          "description": "The mist can occupy another creature's space and vice versa. In addition, if air can pass through a space, the mist can pass through it without squeezing. Each foot of movement in water costs it 2 extra feet, rather than 1 extra foot. The mist can't manipulate objects in any way that requires fingers or manual dexterity."
+        },
+        {
+          "name": "Sunlight Hypersensitivity",
+          "description": "The mist takes 10 radiant damage whenever it starts its turn in sunlight. While in sunlight, the mist has disadvantage on attack rolls and ability checks."
+        }
+      ],
+      "actions": [
+        {
+          "name": "Life Drain",
+          "description": "The mist touches one creature in its space. The target must succeed on a DC 13 Constitution saving throw (undead and constructs automatically succeed), or it takes 10 (2d6 + 3) necrotic damage, the mist regains 10 hit points, and the target's hit point maximum is reduced by an amount equal to the necrotic damage taken. This reduction lasts until the target finishes a long rest. The target dies if its hit point maximum is reduced to 0."
+        }
+      ],
+      "reactions": [
+        
+      ],
+      "legendaryActions": [
+        
+      ],
+      "hitDieSize": 8
+    },
+    "sharing": {
+      "linkSharingEnabled": false
+    },
+    "_id": "5ea4b8be63a0580dfd76d3f0",
+    "name": "Vampiric Mist",
+    "__v": 0,
+    "publishedBestiaryId": "5ea4b8b463a0580dfd76d379"
+  },
+  {
+    "flavor": {
+      "faction": "",
+      "environment": "",
+      "description": "",
+      "nameIsProper": false,
+      "imageUrl": ""
+    },
+    "stats": {
+      "size": "Large",
+      "race": "Giant",
+      "alignment": "Chaotic Evil",
+      "armorType": "natural armor",
+      "armorClass": 15,
+      "numHitDie": 9,
+      "speed": "30 ft.",
+      "abilityScores": {
+        "strength": 18,
+        "dexterity": 13,
+        "constitution": 20,
+        "intelligence": 7,
+        "wisdom": 9,
+        "charisma": 7
+      },
+      "proficiencyBonus": 3,
+      "damageVulnerabilities": [
+        
+      ],
+      "damageResistances": [
+        
+      ],
+      "damageImmunities": [
+        "Poison"
+      ],
+      "conditionImmunities": [
+        "Poisoned"
+      ],
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "languages": [
+        "Giant"
+      ],
+      "challengeRating": 7,
+      "experiencePoints": 2900,
+      "legendaryActionsPerRound": 3,
+      "legendaryActionsDescription": "",
+      "savingThrows": [
+        
+      ],
+      "skills": [
+        {
+          "name": "Perception",
+          "proficient": true
+        }
+      ],
+      "additionalAbilities": [
+        {
+          "name": "Keen Smell",
+          "description": "The venom troll has advantage on Wisdom (perception) checks that rely on smell."
+        },
+        {
+          "name": "Poison Splash",
+          "description": "When the troll takes damage of any type but psychic, each creature within 5 feet of the troll takes 9 (2d8) poison damage."
+        },
+        {
+          "name": "Regeneration",
+          "description": "The venom troll regains 10 hit points at the start of its turn. If the venom troll takes acid or fire damage, this trait doesn't function at the start of the venom troll's next turn. The venom troll dies only if it starts its turn with 0 hit points and doesn't regenerate."
+        }
+      ],
+      "actions": [
+        {
+          "name": "Multiattack",
+          "description": "The troll makes three attacks: one with its bite and two with its claws."
+        },
+        {
+          "name": "Bite",
+          "description": "<i>Melee Weapon Attack:</i> +7 to hit, reach 5 ft., one target. <i>Hit:</i> 7 (1d6 + 4) piercing damage plus 4 (1d8) poison damage, and the target is poisoned until the start of the troll's next turn."
+        },
+        {
+          "name": "Claws",
+          "description": "<i>Melee Weapon Attack:</i> +7 to hit, reach 5 ft., one target. <i>Hit:</i> 11 (2d6 + 4) slashing damage plus 4 (1d8) poison damage."
+        },
+        {
+          "name": "Venom Spray (Recharge 6)",
+          "description": "The troll slices itself with a claw, re leasing a spray of poison in a 15-foot cube. The troll takes 7 (2d6) slashing damage (this damage can't be reduced in any way). Each creature in the area must make a DC 16 Constitution saving throw. On a failed save, a creature takes 18 (4d8) poison damage and is poisoned for 1 minute. On a successful save, the creature takes half as much damage and isn't poisoned. A poisoned creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+        }
+      ],
+      "reactions": [
+        
+      ],
+      "legendaryActions": [
+        
+      ],
+      "hitDieSize": 10
+    },
+    "sharing": {
+      "linkSharingEnabled": false
+    },
+    "_id": "5ea4b8be63a0580dfd76d3ed",
+    "name": "Venom Troll",
+    "__v": 0,
+    "publishedBestiaryId": "5ea4b8b463a0580dfd76d379"
+  },
+  {
+    "flavor": {
+      "faction": "",
+      "environment": "",
+      "description": "",
+      "nameIsProper": false,
+      "imageUrl": ""
+    },
+    "stats": {
+      "size": "Large",
+      "race": "fiend (demon)",
+      "alignment": "Chaotic Evil",
+      "armorType": "natural armor",
+      "armorClass": 18,
+      "numHitDie": 15,
+      "speed": "30 ft., swim 80 ft.",
+      "abilityScores": {
+        "strength": 19,
+        "dexterity": 18,
+        "constitution": 21,
+        "intelligence": 19,
+        "wisdom": 12,
+        "charisma": 14
+      },
+      "proficiencyBonus": 5,
+      "damageVulnerabilities": [
+        
+      ],
+      "damageResistances": [
+        "Cold",
+        "Fire",
+        "Lightning",
+        "Bludgeoning",
+        "Piercing",
+        "Slashing",
+        "from non-magical attacks"
+      ],
+      "damageImmunities": [
+        "Poison"
+      ],
+      "conditionImmunities": [
+        "Poisoned"
+      ],
+      "senses": [
+        "darkvision 120 ft."
+      ],
+      "languages": [
+        "Abyssal",
+        "telepathy 120 ft."
+      ],
+      "challengeRating": 13,
+      "experiencePoints": 10000,
+      "legendaryActionsPerRound": 3,
+      "legendaryActionsDescription": "",
+      "savingThrows": [
+        {
+          "ability": "strength",
+          "proficient": true
+        },
+        {
+          "ability": "constitution",
+          "proficient": true
+        }
+      ],
+      "skills": [
+        
+      ],
+      "additionalAbilities": [
+        {
+          "name": "Amphibious",
+          "description": "The wastrilith can breathe air and water."
+        },
+        {
+          "name": "Corrupt Water",
+          "description": "At the start of each of the wastrilith's turns, exposed water within 30 feet of it is befouled. Underwater, this effect lightly obscures the area until a current clears it away. Water in containers remains corrupted until it evaporates.\nA creature that consumes this foul water or swims in it must make a DC 18 Constitution saving throw. On a successful save, the creature is immune to the foul water for 24 hours. On a failed save, the creature takes 14 (4d6) poison damage and is poisoned for 1 minute. At the end of this time, the poisoned creature must repeat the saving throw. On a failure, the creature takes 18 (4d8) poison damage and is poisoned until it finishes a long rest.\nIf another demon drinks the foul water as an action, it gains 11 (2d10) temporary hit points."
+        },
+        {
+          "name": "Magic Resistance",
+          "description": "The wastrilith has advantage on saving throws against spells and other magical effects."
+        },
+        {
+          "name": "Undertow",
+          "description": "As a bonus action while the wastrilith is underwater, it can cause all water within 60 feet of it to be difficult terrain for all other creatures until the start of its next turn."
+        }
+      ],
+      "actions": [
+        {
+          "name": "Multiattack",
+          "description": "The wastrilith uses Grasping Spout and makes three attacks: one with its bite and two with its claws."
+        },
+        {
+          "name": "Bite",
+          "description": "<i>Melee Weapon Attack:</i> +9 to hit, reach 10 ft., one target. <i>Hit:</i> 30 (4d12 + 4) piercing damage."
+        },
+        {
+          "name": "Claws",
+          "description": "<i>Melee Weapon Attack:</i> +9 to hit, reach 10 ft., one target. <i>Hit:</i> 18 (4d6 + 4) slashing damage."
+        },
+        {
+          "name": "Grasping Spout",
+          "description": "The wastrilith magically launches a spout of water at one creature it can see within 60 feet of it. The target must make a DC 17 Strength saving throw, and it has disadvantage if it's underwater. On a failed save, the target takes 22 (4d8 + 4) acid damage and is pulled up to 60 feet toward the wastrilith. On a successful save, it takes half as much damage and isn't pulled."
+        }
+      ],
+      "reactions": [
+        
+      ],
+      "legendaryActions": [
+        
+      ],
+      "hitDieSize": 10
+    },
+    "sharing": {
+      "linkSharingEnabled": false
+    },
+    "_id": "5ea4b8be63a0580dfd76d3eb",
+    "name": "Wastrilith",
+    "__v": 0,
+    "publishedBestiaryId": "5ea4b8b463a0580dfd76d379"
+  },
+  {
+    "flavor": {
+      "faction": "",
+      "environment": "",
+      "description": "",
+      "nameIsProper": false,
+      "imageUrl": ""
+    },
+    "stats": {
+      "size": "Medium",
+      "race": "Elemental",
+      "alignment": "Neutral",
+      "armorType": "Plate",
+      "armorClass": 18,
+      "numHitDie": 17,
+      "speed": "30 ft.",
+      "abilityScores": {
+        "strength": 18,
+        "dexterity": 14,
+        "constitution": 16,
+        "intelligence": 8,
+        "wisdom": 10,
+        "charisma": 10
+      },
+      "proficiencyBonus": 3,
+      "damageVulnerabilities": [
+        
+      ],
+      "damageResistances": [
+        "Acid",
+        "Bludgeoning",
+        "Piercing",
+        "Slashing",
+        "from non-magical attacks"
+      ],
+      "damageImmunities": [
+        "Poison"
+      ],
+      "conditionImmunities": [
+        "Paralyzed",
+        "Petrified",
+        "Poisoned",
+        "Prone"
+      ],
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "languages": [
+        "Aquan",
+        "one language of its creator's choice"
+      ],
+      "challengeRating": 7,
+      "experiencePoints": 2900,
+      "legendaryActionsPerRound": 3,
+      "legendaryActionsDescription": "",
+      "savingThrows": [
+        
+      ],
+      "skills": [
+        
+      ],
+      "additionalAbilities": [
+        {
+          "name": "Magic Weapons",
+          "description": "The water elemental myrmidon's weapon attacks are magical."
+        }
+      ],
+      "actions": [
+        {
+          "name": "Multiattack",
+          "description": "The myrmidon makes three trident attacks."
+        },
+        {
+          "name": "Trident",
+          "description": "<i>Melee or Ranged Weapon Attack:</i> +7 to hit, reach 5 ft. or range 20/60 ft., one target. <i>Hit:</i> 7 (1d6 + 4) piercing damage, or 8 (1d8 + 4) piercing damage if used with two hands to make a melee attack."
+        },
+        {
+          "name": "Freezing Strike (Recharge 6)",
+          "description": "The myrmidon uses Multiattack. Each attack that hits deals an extra 5 (1d10) cold damage, and the target’s speed is reduced by 10 feet until the end of the myrmidon’s next turn."
+        }
+      ],
+      "reactions": [
+        
+      ],
+      "legendaryActions": [
+        
+      ],
+      "hitDieSize": 8
+    },
+    "sharing": {
+      "linkSharingEnabled": false
+    },
+    "_id": "5ea4b8be63a0580dfd76d3ec",
+    "name": "Water Elemental Myrmidon",
+    "__v": 0,
+    "publishedBestiaryId": "5ea4b8b463a0580dfd76d379"
+  },
+  {
+    "flavor": {
+      "faction": "",
+      "environment": "",
+      "description": "",
+      "nameIsProper": false,
+      "imageUrl": ""
+    },
+    "stats": {
+      "size": "Medium",
+      "race": "fiend (devil)",
+      "alignment": "Lawful Evil",
+      "armorType": "natural armor",
+      "armorClass": 15,
+      "numHitDie": 8,
+      "speed": "30 ft., fly 40 ft.",
+      "abilityScores": {
+        "strength": 16,
+        "dexterity": 11,
+        "constitution": 18,
+        "intelligence": 11,
+        "wisdom": 12,
+        "charisma": 13
+      },
+      "proficiencyBonus": 3,
+      "damageVulnerabilities": [
+        
+      ],
+      "damageResistances": [
+        "Bludgeoning",
+        "Piercing",
+        "Slashing",
+        "from non-magical attacks that aren't silvered"
+      ],
+      "damageImmunities": [
+        "Cold",
+        "Fire",
+        "Poison"
+      ],
+      "conditionImmunities": [
+        "Poisoned"
+      ],
+      "senses": [
+        "darkvision 120 ft."
+      ],
+      "languages": [
+        "Draconic",
+        "Infernal",
+        "telepathy 120 ft."
+      ],
+      "challengeRating": 6,
+      "experiencePoints": 2300,
+      "legendaryActionsPerRound": 3,
+      "legendaryActionsDescription": "The white abishai can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The white abishai regains spent legendary actions at the start of its turn.",
+      "savingThrows": [
+        {
+          "ability": "strength",
+          "proficient": true
+        },
+        {
+          "ability": "constitution",
+          "proficient": true
+        }
+      ],
+      "skills": [
+        
+      ],
+      "additionalAbilities": [
+        {
+          "name": "Devil's Sight",
+          "description": "Magical darkness doesn't impede the abishai's darkvision."
+        },
+        {
+          "name": "Magic Resistance",
+          "description": "The abishai has advantage on saving throws against spells and other magical effects."
+        },
+        {
+          "name": "Magic Weapons",
+          "description": "The abishai's weapon attacks are magical."
+        },
+        {
+          "name": "Reckless",
+          "description": "At the start of its turn, the abishai can gain advantage on all melee weapon attack rolls it makes during that turn, but attack rolls against it have advantage until the start of its next turn."
+        }
+      ],
+      "actions": [
+        {
+          "name": "Multiattack",
+          "description": "The abishai makes two attacks: one with its longsword and one with its claws."
+        },
+        {
+          "name": "Longsword",
+          "description": "<i>Melee Weapon Attack:</i> +6 to hit, reach 5 ft., one target. <i>Hit:</i> 7 (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage."
+        },
+        {
+          "name": "Claw",
+          "description": "<i>Melee Weapon Attack:</i> +6 to hit, reach 5 ft., one target. <i>Hit:</i> 8 (1d10 + 3) slashing damage."
+        },
+        {
+          "name": "Bite",
+          "description": "<i>Melee Weapon Attack:</i> +6 to hit, reach 5 ft., one target. <i>Hit:</i> 5 (1d4 + 3) piercing damage plus 3 (1d6) cold damage."
+        }
+      ],
+      "reactions": [
+        {
+          "name": "Vicious Reprisal",
+          "description": "In response to taking damage, the abishai makes a bite attack against a random creature within 5 feet of it. If no creature is in reach, the abishai moves up to half its speed toward an enemy it can see, without provoking opportunity attacks."
+        }
+      ],
+      "legendaryActions": [
+        
+      ],
+      "hitDieSize": 8
+    },
+    "sharing": {
+      "linkSharingEnabled": false
+    },
+    "_id": "5ea4b8bf63a0580dfd76d3f6",
+    "name": "White Abishai",
+    "__v": 0,
+    "publishedBestiaryId": "5ea4b8b463a0580dfd76d379"
+  },
+  {
+    "flavor": {
+      "faction": "",
+      "environment": "",
+      "description": "",
+      "nameIsProper": false,
+      "imageUrl": ""
+    },
+    "stats": {
+      "size": "Medium",
+      "race": "fey (elf)",
+      "alignment": "Chaotic Neutral",
+      "armorType": "natural armor",
+      "armorClass": 19,
+      "numHitDie": 17,
+      "speed": "30 ft.",
+      "abilityScores": {
+        "strength": 11,
+        "dexterity": 11,
+        "constitution": 16,
+        "intelligence": 18,
+        "wisdom": 17,
+        "charisma": 13
+      },
+      "proficiencyBonus": 4,
+      "damageVulnerabilities": [
+        
+      ],
+      "damageResistances": [
+        "cold; bludgeoning",
+        "Piercing",
+        "and slashing from nonmagical attacks"
+      ],
+      "damageImmunities": [
+        
+      ],
+      "conditionImmunities": [
+        
+      ],
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "languages": [
+        "Common",
+        "Elvish",
+        "Sylvan"
+      ],
+      "challengeRating": 10,
+      "experiencePoints": 5900,
+      "legendaryActionsPerRound": 3,
+      "legendaryActionsDescription": "",
+      "savingThrows": [
+        
+      ],
+      "skills": [
+        
+      ],
+      "additionalAbilities": [
+        {
+          "name": "Fey Step (Recharge 4-6)",
+          "description": "As a bonus action, the eladrin can teleport up to 30 feet to an unoccupied space it can see."
+        },
+        {
+          "name": "Innate Spellcasting",
+          "description": "The eladrin's innate spellcasting ability is Intelligence (spell save DC 16, +8 to hit with spell attacks). It can innately cast the following spells, requiring no material components:\n\nAt will: <i>fog cloud</i>, <i>gust of wind</i>\n1/day: <i>cone of cold</i>, <i>ice storm</i>"
+        },
+        {
+          "name": "Magic Resistance",
+          "description": "The eladrin has advantage on saving throws against spells and other magical effects."
+        },
+        {
+          "name": "Sorrowful Presence",
+          "description": "Any non-eladrin creature that starts its turn within 60 feet of the eladrin must make on a DC 13 Wisdom saving throw. On a failed save, the creature becomes charmed by the eladrin for 1 minute. While charmed in this way, the creature has disadvantage on ability checks and saving throws. The charmed creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature becomes immune to any eladrin's Sorrowful Presence for 24 hours.\nWhenever the eladrin deals damage to the charmed creature, the creature can repeat the saving throw, ending the effect on itself on a success."
+        }
+      ],
+      "actions": [
+        {
+          "name": "Longsword",
+          "description": "<i>Melee Weapon Attack:</i> +4 to hit, reach 5 ft., one target. <i>Hit:</i> 4 (1d8) slashing damage, or 5 (1d10) slashing damage if used with two hands."
+        },
+        {
+          "name": "Longbow",
+          "description": "<i>Ranged Weapon Attack:</i> +4 to hit, range 150/600 ft., one target. <i>Hit:</i> 4 (1d8) piercing damage."
+        }
+      ],
+      "reactions": [
+        {
+          "name": "Frigid Rebuke",
+          "description": "When the eladrin takes damage from a creature the eladrin can see within 60 feet of it, the eladrin can force that creature to succeed on a DC 16 Constitution saving throw or take 11 (2d10) cold damage."
+        }
+      ],
+      "legendaryActions": [
+        
+      ],
+      "hitDieSize": 8
+    },
+    "sharing": {
+      "linkSharingEnabled": false
+    },
+    "_id": "5ea4b8be63a0580dfd76d3ef",
+    "name": "Winter Eladrin",
+    "__v": 0,
+    "publishedBestiaryId": "5ea4b8b463a0580dfd76d379"
+  },
+  {
+    "flavor": {
+      "faction": "",
+      "environment": "",
+      "description": "",
+      "nameIsProper": false,
+      "imageUrl": ""
+    },
+    "stats": {
+      "size": "Large",
+      "race": "fiend (yugoloth)",
+      "alignment": "Neutral Evil",
+      "armorType": "natural armor",
+      "armorClass": 17,
+      "numHitDie": 14,
+      "speed": "40 ft.",
+      "abilityScores": {
+        "strength": 19,
+        "dexterity": 14,
+        "constitution": 21,
+        "intelligence": 16,
+        "wisdom": 15,
+        "charisma": 18
+      },
+      "proficiencyBonus": 4,
+      "damageVulnerabilities": [
+        
+      ],
+      "damageResistances": [
+        "Cold",
+        "Fire",
+        "Lightning",
+        "Bludgeoning",
+        "Piercing",
+        "Slashing",
+        "from non-magical attacks"
+      ],
+      "damageImmunities": [
+        "Acid",
+        "Poison"
+      ],
+      "conditionImmunities": [
+        "Poisoned"
+      ],
+      "senses": [
+        "blindsight 60 ft.",
+        "darkvision 60 ft."
+      ],
+      "languages": [
+        "Abyssal",
+        "Infernal",
+        "telepathy 60 ft."
+      ],
+      "challengeRating": 11,
+      "experiencePoints": 7200,
+      "legendaryActionsPerRound": 3,
+      "legendaryActionsDescription": "",
+      "savingThrows": [
+        {
+          "ability": "dexterity",
+          "proficient": true
+        },
+        {
+          "ability": "intelligence",
+          "proficient": true
+        },
+        {
+          "ability": "wisdom",
+          "proficient": true
+        },
+        {
+          "ability": "charisma",
+          "proficient": true
+        }
+      ],
+      "skills": [
+        {
+          "name": "Deception",
+          "proficient": true
+        },
+        {
+          "name": "Insight",
+          "proficient": true
+        },
+        {
+          "name": "Perception",
+          "proficient": true
+        },
+        {
+          "name": "Persuasion",
+          "proficient": true
+        }
+      ],
+      "additionalAbilities": [
+        {
+          "name": "Innate Spellcasting",
+          "description": "The yagnoloth's innate spellcasting ability is Charisma (spell save DC 16, +8 to hit with spell attacks). It can innately cast the following spells, requiring no material components:\n\nAt will: <i>darkness</i>, <i>detect magic</i>, <i>dispel magic</i>, <i>invisibility</i> (self only), <i>suggestion</i>\n3/day: <i>lightning bolt</i>"
+        },
+        {
+          "name": "Magic Resistance",
+          "description": "The yagnoloth has advantage on saving throws against spells and other magical effects."
+        },
+        {
+          "name": "Magic Weapons",
+          "description": "The yagnoloth's weapon attacks are magical."
+        }
+      ],
+      "actions": [
+        {
+          "name": "Multiattack",
+          "description": "The yagnoloth makes one massive arm attack and one electrified touch attack, or it makes one massive arm attack and teleports before or after the attack."
+        },
+        {
+          "name": "Electric Touch",
+          "description": "<i>Melee Weapon Attack:</i> +8 to hit, reach 5 ft., one target. <i>Hit:</i> 27 (6d8) lightning damage."
+        },
+        {
+          "name": "Massive Arm",
+          "description": "<i>Melee Weapon Attack:</i> +8 to hit, reach 15 ft., one target. <i>Hit:</i> 23 (3d12 + 4) bludgeoning damage. If the target is a creature, it must succeed on a DC 16 Constitution saving throw or become stunned until the end of the yagnoloth's next turn."
+        },
+        {
+          "name": "Life Leech",
+          "description": "The yagnoloth touches one incapacitated creature within 15 feet of it. The target takes 36 (7d8 + 4) necrotic damage, and the yagnoloth gains temporary hit points equal to half the damage dealt. The target must succeed on a DC 16 Constitution saving throw, or its hit point maximum is  reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest, and the target dies if its hit point maximum is  reduced to 0."
+        },
+        {
+          "name": "Battlefield Cunning (Recharge 4-6)",
+          "description": "Up to two allied yugoloths within 60 feet of the yagnoloth that can hear it can use their reactions to make one melee attack each."
+        },
+        {
+          "name": "Teleport",
+          "description": "The yagnoloth magically teleports, along with any equipment it is wearing or carrying, up to 60 feet to an unoccupied space it can see."
+        }
+      ],
+      "reactions": [
+        
+      ],
+      "legendaryActions": [
+        
+      ],
+      "hitDieSize": 10
+    },
+    "sharing": {
+      "linkSharingEnabled": false
+    },
+    "_id": "5ea4b8be63a0580dfd76d3f2",
+    "name": "Yagnoloth",
+    "__v": 0,
+    "publishedBestiaryId": "5ea4b8b463a0580dfd76d379"
+  },
+  {
+    "flavor": {
+      "faction": "",
+      "environment": "",
+      "description": "",
+      "nameIsProper": false,
+      "imageUrl": ""
+    },
+    "stats": {
+      "size": "Small",
+      "race": "Monstrosity",
+      "alignment": "Unaligned",
+      "armorType": "Natural Armor",
+      "armorClass": 16,
+      "numHitDie": 2,
+      "speed": "30 ft., burrow 10 ft., climb 30 ft.",
+      "abilityScores": {
+        "strength": 13,
+        "dexterity": 16,
+        "constitution": 13,
+        "intelligence": 4,
+        "wisdom": 10,
+        "charisma": 6
+      },
+      "proficiencyBonus": 2,
+      "damageVulnerabilities": [
+        
+      ],
+      "damageResistances": [
+        
+      ],
+      "damageImmunities": [
+        
+      ],
+      "conditionImmunities": [
+        
+      ],
+      "senses": [
+        "darkvision 30 ft.",
+        "tremorsense 60 ft."
+      ],
+      "languages": [
+        "Kruthik"
+      ],
+      "challengeRating": 0.125,
+      "experiencePoints": 25,
+      "legendaryActionsPerRound": 3,
+      "legendaryActionsDescription": "",
+      "savingThrows": [
+        
+      ],
+      "skills": [
+        
+      ],
+      "additionalAbilities": [
+        {
+          "name": "Keen Smell",
+          "description": "The young kruthik has advantage on Wisdom (perception) checks that rely on smell."
+        },
+        {
+          "name": "Pack Tactics",
+          "description": "The young kruthik has advantage on an attack roll against a creature if at least one of the young kruthik's allies is within 5 feet of the creature and the ally isn't incapacitated."
+        },
+        {
+          "name": "Tunneler",
+          "description": "The kruthik can burrow through solid rock at half its burrowing speed and leaves a 2.5-foot-diameter tunnel in its wake."
+        }
+      ],
+      "actions": [
+        {
+          "name": "Stab",
+          "description": "<i>Melee Weapon Attack:</i> +5 to hit, reach 5 ft., one target. <i>Hit:</i> 5 (1d4 + 3) piercing damage."
+        }
+      ],
+      "reactions": [
+        
+      ],
+      "legendaryActions": [
+        
+      ],
+      "hitDieSize": 6
+    },
+    "sharing": {
+      "linkSharingEnabled": false
+    },
+    "_id": "5ea4b8be63a0580dfd76d3f1",
+    "name": "Young Kruthik",
+    "__v": 0,
+    "publishedBestiaryId": "5ea4b8b463a0580dfd76d379"
+  },
+  {
+    "flavor": {
+      "faction": "",
+      "environment": "",
+      "description": "",
+      "nameIsProper": false,
+      "imageUrl": ""
+    },
+    "stats": {
+      "size": "Gargantuan",
+      "race": "elemental",
+      "alignment": "Neutral",
+      "armorType": "natural armor",
+      "armorClass": 21,
+      "numHitDie": 15,
+      "speed": "40 ft., swim 40 ft.",
+      "abilityScores": {
+        "strength": 30,
+        "dexterity": 10,
+        "constitution": 30,
+        "intelligence": 2,
+        "wisdom": 21,
+        "charisma": 18
+      },
+      "proficiencyBonus": 7,
+      "damageVulnerabilities": [
+        "Thunder"
+      ],
+      "damageResistances": [
+        "Cold",
+        "Fire",
+        "Lightning",
+        "Bludgeoning",
+        "Piercing",
+        "Slashing",
+        "from non-magical attacks"
+      ],
+      "damageImmunities": [
+        "Poison"
+      ],
+      "conditionImmunities": [
+        "Exhaustion",
+        "Paralyzed",
+        "Petrified",
+        "Poisoned",
+        "Stunned"
+      ],
+      "senses": [
+        "darkvision 60 ft.",
+        "tremorsense 60 ft."
+      ],
+      "languages": [
+        
+      ],
+      "challengeRating": 22,
+      "experiencePoints": 41000,
+      "legendaryActionsPerRound": 3,
+      "legendaryActionsDescription": "The zaratan can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The zaratan regains spent legendary actions at the start of its turn.",
+      "savingThrows": [
+        {
+          "ability": "wisdom",
+          "proficient": true
+        },
+        {
+          "ability": "charisma",
+          "proficient": true
+        }
+      ],
+      "skills": [
+        
+      ],
+      "additionalAbilities": [
+        {
+          "name": "Earth-Shaking Movement",
+          "description": "As a bonus action after moving at least 10 feet on the ground, the zaratan can send a shock wave through the ground in a 120-foot-radius circle centered on itself. That area becomes difficult terrain for 1 minute. Each creature on the ground that is  concentrating must succeed on a DC 25 Constitution saving throw or the creature's concentration is broken. \nThe shock wave deals 100 thunder damage to all structures in contact with the ground in the area. If a creature is near a structure that collapses, the creature might be buried; a creature within half the distance of the structure's height must make a DC 25 Dexterity saving throw. On a failed save, the creature takes 17 (5d6) bludgeoning damage, is knocked prone, and is trapped in the rubble. A trapped creature is restrained, requiring a successful DC 20 Strength (Athletics) check as an action to escape. Another creature within 5 feet of the buried creature can use its action to clear rubble and grant advantage on the check. If three creatures use their actions in this way, the check is  an automatic success. On a successful save, the creature takes half as much damage and doesn't fall prone or become trapped."
+        },
+        {
+          "name": "Legendary Resistance (3/Day)",
+          "description": "If the zaratan fails a saving throw, it can choose to succeed instead."
+        },
+        {
+          "name": "Magic Weapons",
+          "description": "The zaratan's weapon attacks are magical."
+        },
+        {
+          "name": "Siege Monster",
+          "description": "The zaratan deals double damage to objects and structures (included in Earth-Shaking Movement)."
+        }
+      ],
+      "actions": [
+        {
+          "name": "Multiattack",
+          "description": "The zaratan makes two attacks: one with its bite and one with its stomp."
+        },
+        {
+          "name": "Bite",
+          "description": "<i>Melee Weapon Attack:</i> +17 to hit, reach 20 ft., one target. <i>Hit:</i> 28 (4d8 + 10) piercing damage."
+        },
+        {
+          "name": "Stomp",
+          "description": "<i>Melee Weapon Attack:</i> +17 to hit, reach 20 ft., one target. <i>Hit:</i> 26 (3d10 + 10) bludgeoning damage."
+        },
+        {
+          "name": "Spit Rock",
+          "description": "<i>Ranged Weapon Attack:</i> +17 to hit, range 120/240 ft., one target. <i>Hit:</i> 37 (6d8 + 10) bludgeoning damage."
+        },
+        {
+          "name": "Spew Debris (Recharge 5-6)",
+          "description": "The zaratan exhales rocky debris in a 90-foot cube. Each creature in that area must make a DC 25 Dexterity saving throw. A creature takes 33 (6d10) bludgeoning damage on a failed save, or half as much damage on a  successful one. A creature that fails the save by 5 or more is knocked prone."
+        }
+      ],
+      "reactions": [
+        
+      ],
+      "legendaryActions": [
+        {
+          "name": "Stomp",
+          "description": "The zaratan makes one stomp attack."
+        },
+        {
+          "name": "Move",
+          "description": "The zaratan moves up to its speed."
+        },
+        {
+          "name": "Spit (Costs 2 Actions)",
+          "description": "The zaratan uses Spit Rock."
+        },
+        {
+          "name": "Retract (Costs 2 Actions)",
+          "description": "The zaratan retracts into its shell. Until it takes its Emerge action, it has resistance to all dam-age, and it is restrained. The next time it takes a legendary action, it must take its Revitalize or Emerge action."
+        },
+        {
+          "name": "Revitalize (Costs 2 Actions)",
+          "description": "The zaratan can use this option only if it  is retracted in its shell. It regains 52 (5d20) hit points. The next time it takes a legendary action, it must take its Emerge action"
+        },
+        {
+          "name": "Emerge (Costs 2 Actions)",
+          "description": "The zaratan emerges from its shell and uses Spit Rock. It can use this option only if it  is retracted in its shell."
+        }
+      ],
+      "hitDieSize": 20
+    },
+    "sharing": {
+      "linkSharingEnabled": false
+    },
+    "_id": "5ea4b8be63a0580dfd76d3f4",
+    "name": "Zaratan",
+    "__v": 0,
+    "publishedBestiaryId": "5ea4b8b463a0580dfd76d379"
+  },
+  {
+    "flavor": {
+      "faction": "",
+      "environment": "",
+      "description": "Zariel makes her lair in a basalt citadel that rises up in Avernus. From nearly a mile away, one can hear the screams and moans coming from the burned victims chained the stronghold's wall, the dying remains of those who failed to impress the archdevil. The stronghold, covering five square miles, is surrounded by walls reinforced with high turrets. Devils of all kinds crawl over the structure, ensuring that no intruders breach their defenses.\n<b>Lair Actions.</b>\nOn initiative count 20 (losing initiative ties), Zariel can take a lair action to cause one of the following effects; she can't use the same effect two rounds in a row:\n• Zariel casts <i>major image</i> four times at its lowest level, targeting different areas with the spell. Zariel prefers to create images of intruders' loved ones being burned alive.\n• Zariel casts her innate <i>fireball</i> spell.\n<b>Regional Effects:</b>\nThe region containing Zariel's lair is warped by her magic, which creates one or more of the following effects:\n• The area within 9 miles of the lair is filled with screaming voices and the stench of burning meat.\n• Once every 60 feet within 1 mile of the lair, 10-foot high gouts of flame rise from the ground. Any creature or object that touches the flame takes 7 (2d6) fire damage, though it can take this damage no more than once per round.\n• The area within 2 miles, but no closer than 500 feet, of the lair is filled with smoke, which causes the area to be heavily obscured. This smoke can't be cleared away.\nIf Zariel dies, these effects fade within 1d10 days.",
+      "nameIsProper": true,
+      "imageUrl": ""
+    },
+    "stats": {
+      "size": "Large",
+      "race": "fiend (devil)",
+      "alignment": "Lawful Evil",
+      "armorType": "natural armor",
+      "armorClass": 21,
+      "numHitDie": 40,
+      "speed": "50 ft., fly 150 ft.",
+      "abilityScores": {
+        "strength": 27,
+        "dexterity": 24,
+        "constitution": 28,
+        "intelligence": 26,
+        "wisdom": 27,
+        "charisma": 30
+      },
+      "proficiencyBonus": 8,
+      "damageVulnerabilities": [
+        
+      ],
+      "damageResistances": [
+        "Cold",
+        "Fire",
+        "Radiant",
+        "Bludgeoning",
+        "Piercing",
+        "Slashing",
+        "from non-magical attacks that aren't silvered"
+      ],
+      "damageImmunities": [
+        "Necrotic",
+        "Poison"
+      ],
+      "conditionImmunities": [
+        "Charmed",
+        "Exhaustion",
+        "Frightened",
+        "Poisoned"
+      ],
+      "senses": [
+        "darkvision 120 ft."
+      ],
+      "languages": [
+        "all",
+        "telepathy 120 ft."
+      ],
+      "challengeRating": 26,
+      "experiencePoints": 90000,
+      "legendaryActionsPerRound": 3,
+      "legendaryActionsDescription": "Zariel can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. Zariel regains spent legendary actions at the start of its turn.",
+      "savingThrows": [
+        {
+          "ability": "intelligence",
+          "proficient": true
+        },
+        {
+          "ability": "wisdom",
+          "proficient": true
+        },
+        {
+          "ability": "charisma",
+          "proficient": true
+        }
+      ],
+      "skills": [
+        {
+          "name": "Intimidation",
+          "proficient": true
+        },
+        {
+          "name": "Perception",
+          "proficient": true
+        }
+      ],
+      "additionalAbilities": [
+        {
+          "name": "Devil's Sight",
+          "description": "Magical darkness doesn't impede Zariel's darkvision."
+        },
+        {
+          "name": "Fiery Weapons",
+          "description": "Zariel's weapon attacks are magical. When Zariel hits with any weapon, the weapon deals an extra 36 (8d8) fire damage (included in the weapon attacks below)."
+        },
+        {
+          "name": "Innate Spellcasting",
+          "description": "Zariel's innate spellcasting ability is Charisma (spell save DC 26, +18 to hit with spell attacks). Zariel can innately cast the following spells, requiring no material components:\n\nAt will: <i>alter self</i> (can become Medium when changing appearance), <i>detect evil and good</i>, <i>fireball</i>, <i>invisibility</i> (self only), <i>wall of fire</i>\n3/day: <i>blade barrier</i>, <i>dispel evil and good</i>, <i>finger of death</i>"
+        },
+        {
+          "name": "Legendary Resistance (3/Day)",
+          "description": "If Zariel fails a saving throw, it can choose to succeed instead."
+        },
+        {
+          "name": "Magic Resistance",
+          "description": "Zariel has advantage on saving throws against spells and other magical effects."
+        },
+        {
+          "name": "Regeneration",
+          "description": "Zariel regains 20 hit points at the start of each of her turns. If she takes radiant damage, this trait doesn't function at the start of her next turn. Zariel dies only if she starts her turn and doesn't regenerate."
+        }
+      ],
+      "actions": [
+        {
+          "name": "Multiattack",
+          "description": "Zariel attacks twice with her longsword or her javelins. She can substitute Horrid Touch for one of these attacks."
+        },
+        {
+          "name": "Longsword",
+          "description": "<i>Melee Weapon Attack:</i> +16 to hit, reach 10 ft., one target. <i>Hit:</i> 17 (2d8 + 8) slashing damage, or 19 (2d10 + 8) slashing damage if used with two hands, plus 36 (8d8) fire damage."
+        },
+        {
+          "name": "Javelin",
+          "description": "<i>Melee or Ranged Weapon Attack:</i> +16 to hit, reach 5 ft. or range 30/120 ft., one target. <i>Hit:</i> 15 (2d6 + 8) piercing damage, plus 36 (8d8) fire damage."
+        },
+        {
+          "name": "Horrid Touch (Recharge 5-6)",
+          "description": "<i>Melee Weapon Attack:</i> +16 to hit, reach 10 ft., one target. <i>Hit:</i> 44 (8d10) necrotic damage, and the target is poisoned for 1 minute. While poisoned in this way, the target is also blinded and deafened. The target can make a DC 26 Charisma saving throw at the end of each of its turns, ending the effect on itself on a success."
+        },
+        {
+          "name": "Teleport",
+          "description": "Zariel magically teleports, along with any equipment she is wearing or carrying, up to 120 feet to an unoccupied space she can see."
+        }
+      ],
+      "reactions": [
+        
+      ],
+      "legendaryActions": [
+        {
+          "name": "Immolating Gaze (Costs 2 Actions)",
+          "description": "Zariel turns her magical gaze towards one creature she can see within 120 feet of her and commands it to combust. The target must succeed on a DC 26 Wisdom saving throw or take 22 (4d10) fire damage."
+        },
+        {
+          "name": "Teleport",
+          "description": "Zariel uses her Teleport action."
+        }
+      ],
+      "hitDieSize": 10
+    },
+    "sharing": {
+      "linkSharingEnabled": false
+    },
+    "_id": "5ea4b8be63a0580dfd76d3f5",
+    "name": "Zariel",
+    "__v": 0,
+    "publishedBestiaryId": "5ea4b8b463a0580dfd76d379"
+  },
+  {
+    "flavor": {
+      "faction": "",
+      "environment": "",
+      "description": "Zuggtmoy's principal lair is her palace on Shedaklah. It consists of two dozen mushrooms of pale yellow and rancid brown. These massive fungi are some of the largest in existence. They are surrounded by a field of acidic puffballs and poisonous vapors. The mushrooms are all interconnected by bridges of shelf-fungi, and countless chambers have been hollowed out inside their rubbery, fibrous stalks.\n<b>Lair Actions.</b>\nOn initiative count 20 (losing initiative ties), Zuggtmoy can take a lair action to cause one of the following effects; she can't use the same effect two rounds in a row:\n• Zuggtmoy causes four gas spores or violet fungi (see the <i>Monster Manual</i>) to appear in unoccupied spaces that she chooses within the lair. They vanish after 1 hour.\n• Up to four plant creatures that are friendly to Zuggtmoy and that Zuggtmoy can see can use their reactions to move up to their speed and make one weapon attack.\n• Zuggtmoy uses either her Infestation Spores or her Mind Control Spores centered on mushrooms or other fungus within her lair, instead of on herself.\n<b>Regional Effects.</b>\nThe region containing Zuggtmoy's lair is warped by her magic, creating one or more of the following effects:\n• Molds and fungi grow on surfaces within 6 miles of the lair, even where they would normally find no purchase.\n• Plant life within 1 mile of the lair becomes festered with parasitic fungi, slowly mutating as it is overwhelmed.\n• If a humanoid spends at least 1 hour within 1 mile of the lair, that creature must succeed on a DC 17 Wisdom saving throw or descend into madness as determined by the Madness of Zuggtmoy table (see <i>Out of the Abyss</i> or Mordenkainen's Tome of Foes</i>). A creature that succeeds on this saving throw can't be affected by this regional effect again for 24 hours.",
+      "nameIsProper": true,
+      "imageUrl": ""
+    },
+    "stats": {
+      "size": "Large",
+      "race": "fiend (demon)",
+      "alignment": "Chaotic Evil",
+      "armorType": "natural armor",
+      "armorClass": 18,
+      "numHitDie": 32,
+      "speed": "30 ft.",
+      "abilityScores": {
+        "strength": 22,
+        "dexterity": 15,
+        "constitution": 18,
+        "intelligence": 20,
+        "wisdom": 19,
+        "charisma": 24
+      },
+      "proficiencyBonus": 7,
+      "damageVulnerabilities": [
+        
+      ],
+      "damageResistances": [
+        "Cold",
+        "Fire",
+        "Lightning"
+      ],
+      "damageImmunities": [
+        "Poison",
+        "Bludgeoning",
+        "Piercing",
+        "Slashing",
+        "from non-magical attacks"
+      ],
+      "conditionImmunities": [
+        "Charmed",
+        "Exhaustion",
+        "Frightened",
+        "Poisoned"
+      ],
+      "senses": [
+        "truesight 120 ft."
+      ],
+      "languages": [
+        "all",
+        "telepathy 120 ft."
+      ],
+      "challengeRating": 23,
+      "experiencePoints": 50000,
+      "legendaryActionsPerRound": 3,
+      "legendaryActionsDescription": "Zuggtmoy can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. Zuggtmoy regains spent legendary actions at the start of its turn.",
+      "savingThrows": [
+        {
+          "ability": "dexterity",
+          "proficient": true
+        },
+        {
+          "ability": "constitution",
+          "proficient": true
+        },
+        {
+          "ability": "wisdom",
+          "proficient": true
+        }
+      ],
+      "skills": [
+        {
+          "name": "Perception",
+          "proficient": true
+        }
+      ],
+      "additionalAbilities": [
+        {
+          "name": "Innate Spellcasting",
+          "description": "Zuggtmoy's innate spellcasting ability is Charisma (spell save DC 22, +14 to hit with spell attacks). Zuggtmoy can innately cast the following spells, requiring no material components:\n\nAt will: <i>detect magic</i>, <i>locate animals or plants</i>, <i>ray of sickness</i>\n3/day: <i>dispel magic</i>, <i>ensnaring strike</i>, <i>entangle</i>, <i>plant growth</i>\n1/day: <i>etherealness</i>, <i>teleport</i>"
+        },
+        {
+          "name": "Legendary Resistence (3/Day)",
+          "description": "If Zuggtmoy fails a saving throw, she can choose to succeed instead."
+        },
+        {
+          "name": "Magic Resistance",
+          "description": "Zuggtmoy has advantage on saving throws against spells and other magical effects."
+        },
+        {
+          "name": "Magic Weapons",
+          "description": "Zuggtmoy's weapon attacks are magical."
+        }
+      ],
+      "actions": [
+        {
+          "name": "Multiattack",
+          "description": "Zuggtmoy makes four pseudopod attacks."
+        },
+        {
+          "name": "Pseudopod",
+          "description": "<i>Melee Weapon Attack:</i> +13 to hit, reach 10 ft., one creature. <i>Hit:</i> 15 (2d8 + 6) bludgeoning damage plus 9 (2d8) poison damage."
+        },
+        {
+          "name": "Infestation Spores (3/Day)",
+          "description": "Zuggtmoy releases spores that burst out in a cloud that fills a 20-foot·radius sphere centered on her, and it lingers for 1 minute. Any flesh-and-blood creature in the cloud when it appears, or that enters it later must make a DC 19 Constitution saving throw. On a successful save, the creature can't be infected by these spores for 24 hours. Or a failed save, the creature is infected with a disease called the spores of Zuggtmoy and also gains a random form of madness (determined by rolling on the Madness ofZuggtmoy table) that lasts until the creature is cured of the disease or dies. While infected in this way, the creature can't be reinfected, and it must repeat the saving throw at the end of every 24 hours, ending the infection on a success. On a failure , the infected creature's body is slowly taken over by fungal growfh, and after three such failed saves, the creature dies and is reanimated as a spore servant if it's a type of creature that can be."
+        },
+        {
+          "name": "Mind Control Spores (Recharge 5-6)",
+          "description": "Zuggtmoy releases spores that burst out in a cloud that fills a 20-foot-radius sphere centered on her, and it lingers for 1 minute. Humanoids and beasts in the cloud when it appears, or that enter it later, must make a DC 19 Wisdom saving throw. On a successful save, the creature can't be infected by these spores for 24 hours. On a failed save, the creature is infected with a disease called the influence ofZuggtmoy for 24 hours. While infected, the creature is charmed by her and can't be reinfected by these spores."
+        }
+      ],
+      "reactions": [
+        {
+          "name": "Protective Thrall",
+          "description": "When Zuggtmoy is hit by an attack, one creature within 5 feet of Zuggtmoy that is charmed by her must use its reaction to be hit by the attack instead."
+        }
+      ],
+      "legendaryActions": [
+        {
+          "name": "Attack",
+          "description": "Zuggtmoy makes one pseudopod attack."
+        },
+        {
+          "name": "Exert Will",
+          "description": "One creature charmed by Zuggtmoy tha t she can see must use its reaction to move up to its speed as she directs or to make a weapon attack against a target that she designates."
+        }
+      ],
+      "hitDieSize": 10
+    },
+    "sharing": {
+      "linkSharingEnabled": false
+    },
+    "_id": "5ea4b8be63a0580dfd76d3f3",
+    "name": "Zuggtmoy",
+    "__v": 0,
+    "publishedBestiaryId": "5ea4b8b463a0580dfd76d379"
+  }
+]

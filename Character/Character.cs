@@ -9,6 +9,7 @@ namespace Critter2FG
 {
     public class PlayableCharacter
     {
+        public int ID { get; set; }
         public string name { get; set; }
         public string gender { get; set; }
         public string alignment { get; set; }

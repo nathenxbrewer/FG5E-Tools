@@ -33,6 +33,9 @@
             this.txtIP = new System.Windows.Forms.TextBox();
             this.btnGo = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btnMinimize = new System.Windows.Forms.Button();
+            this.btnClose = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -40,22 +43,19 @@
             this.label5 = new System.Windows.Forms.Label();
             this.lblPath = new System.Windows.Forms.Label();
             this.pnlJSON = new System.Windows.Forms.Panel();
+            this.picJSON = new System.Windows.Forms.PictureBox();
             this.pnlID = new System.Windows.Forms.Panel();
             this.label6 = new System.Windows.Forms.Label();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.btnReset = new System.Windows.Forms.Button();
             this.picDonate = new System.Windows.Forms.PictureBox();
-            this.picJSON = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.btnMinimize = new System.Windows.Forms.Button();
-            this.btnClose = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.pnlJSON.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picJSON)).BeginInit();
             this.pnlID.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picDonate)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picJSON)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // txtIP
@@ -68,7 +68,7 @@
             this.txtIP.Location = new System.Drawing.Point(203, 15);
             this.txtIP.Name = "txtIP";
             this.txtIP.Size = new System.Drawing.Size(147, 29);
-            this.txtIP.TabIndex = 10;
+            this.txtIP.TabIndex = 1;
             this.txtIP.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtIP.TextChanged += new System.EventHandler(this.txtIP_TextChanged);
             this.txtIP.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox1_KeyDown);
@@ -104,6 +104,46 @@
             this.panel2.Size = new System.Drawing.Size(620, 32);
             this.panel2.TabIndex = 33;
             this.panel2.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel2_MouseMove);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImage = global::Critter2FG.Properties.Resources.Icon;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.Location = new System.Drawing.Point(3, 2);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(26, 26);
+            this.pictureBox1.TabIndex = 39;
+            this.pictureBox1.TabStop = false;
+            // 
+            // btnMinimize
+            // 
+            this.btnMinimize.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnMinimize.BackgroundImage")));
+            this.btnMinimize.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnMinimize.Dock = System.Windows.Forms.DockStyle.Right;
+            this.btnMinimize.FlatAppearance.BorderSize = 0;
+            this.btnMinimize.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(37)))), ((int)(((byte)(27)))));
+            this.btnMinimize.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMinimize.Location = new System.Drawing.Point(504, 0);
+            this.btnMinimize.Name = "btnMinimize";
+            this.btnMinimize.Size = new System.Drawing.Size(58, 32);
+            this.btnMinimize.TabIndex = 6;
+            this.btnMinimize.UseVisualStyleBackColor = true;
+            this.btnMinimize.Click += new System.EventHandler(this.btnMinimize_Click);
+            // 
+            // btnClose
+            // 
+            this.btnClose.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnClose.BackgroundImage")));
+            this.btnClose.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnClose.Dock = System.Windows.Forms.DockStyle.Right;
+            this.btnClose.FlatAppearance.BorderSize = 0;
+            this.btnClose.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(37)))), ((int)(((byte)(27)))));
+            this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnClose.Location = new System.Drawing.Point(562, 0);
+            this.btnClose.Name = "btnClose";
+            this.btnClose.Size = new System.Drawing.Size(58, 32);
+            this.btnClose.TabIndex = 4;
+            this.btnClose.UseVisualStyleBackColor = true;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // label1
             // 
@@ -194,6 +234,17 @@
             this.pnlJSON.Size = new System.Drawing.Size(553, 128);
             this.pnlJSON.TabIndex = 40;
             // 
+            // picJSON
+            // 
+            this.picJSON.BackgroundImage = global::Critter2FG.Properties.Resources.open;
+            this.picJSON.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.picJSON.Location = new System.Drawing.Point(254, 41);
+            this.picJSON.Name = "picJSON";
+            this.picJSON.Size = new System.Drawing.Size(40, 40);
+            this.picJSON.TabIndex = 38;
+            this.picJSON.TabStop = false;
+            this.picJSON.Click += new System.EventHandler(this.picJSON_Click);
+            // 
             // pnlID
             // 
             this.pnlID.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
@@ -244,57 +295,6 @@
             this.picDonate.TabStop = false;
             this.picDonate.Click += new System.EventHandler(this.picDonate_Click);
             // 
-            // picJSON
-            // 
-            this.picJSON.BackgroundImage = global::Critter2FG.Properties.Resources.open;
-            this.picJSON.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.picJSON.Location = new System.Drawing.Point(254, 41);
-            this.picJSON.Name = "picJSON";
-            this.picJSON.Size = new System.Drawing.Size(40, 40);
-            this.picJSON.TabIndex = 38;
-            this.picJSON.TabStop = false;
-            this.picJSON.Click += new System.EventHandler(this.picJSON_Click);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackgroundImage = global::Critter2FG.Properties.Resources.Icon;
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(3, 2);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(26, 26);
-            this.pictureBox1.TabIndex = 39;
-            this.pictureBox1.TabStop = false;
-            // 
-            // btnMinimize
-            // 
-            this.btnMinimize.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnMinimize.BackgroundImage")));
-            this.btnMinimize.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnMinimize.Dock = System.Windows.Forms.DockStyle.Right;
-            this.btnMinimize.FlatAppearance.BorderSize = 0;
-            this.btnMinimize.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(37)))), ((int)(((byte)(27)))));
-            this.btnMinimize.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMinimize.Location = new System.Drawing.Point(504, 0);
-            this.btnMinimize.Name = "btnMinimize";
-            this.btnMinimize.Size = new System.Drawing.Size(58, 32);
-            this.btnMinimize.TabIndex = 6;
-            this.btnMinimize.UseVisualStyleBackColor = true;
-            this.btnMinimize.Click += new System.EventHandler(this.btnMinimize_Click);
-            // 
-            // btnClose
-            // 
-            this.btnClose.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnClose.BackgroundImage")));
-            this.btnClose.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnClose.Dock = System.Windows.Forms.DockStyle.Right;
-            this.btnClose.FlatAppearance.BorderSize = 0;
-            this.btnClose.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(37)))), ((int)(((byte)(27)))));
-            this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnClose.Location = new System.Drawing.Point(562, 0);
-            this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(58, 32);
-            this.btnClose.TabIndex = 4;
-            this.btnClose.UseVisualStyleBackColor = true;
-            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
-            // 
             // label7
             // 
             this.label7.AutoSize = true;
@@ -331,12 +331,12 @@
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
             this.Text = "PDU Tool";
             this.panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.pnlJSON.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.picJSON)).EndInit();
             this.pnlID.ResumeLayout(false);
             this.pnlID.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picDonate)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picJSON)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

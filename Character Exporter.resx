@@ -117,15 +117,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="label3.Text" xml:space="preserve">
-    <value>This can be found by navigating to www.dndbeyond.com and opening up
-your character. You will find the ID in the URL. 
-i.e: https://www.dndbeyond.com/profile/profilename/characters/XXXXXXXX
-**Character MUST be set to Public!</value>
-  </data>
-  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="btnMinimize.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -526,6 +517,15 @@ i.e: https://www.dndbeyond.com/profile/profilename/characters/XXXXXXXX
         AAAAAAAAAAAAAAAAAAAAAAAAAADgWA0bCRwZNMagBwAAAABJRU5ErkJggg==
 </value>
   </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>This can be found by navigating to www.dndbeyond.com and opening up
+your character. You will find the ID in the URL. 
+i.e: https://www.dndbeyond.com/profile/profilename/characters/XXXXXXXX
+**Character MUST be set to Public!</value>
+  </data>
+  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAEAAAAAAAEAIABiMAAAFgAAAIlQTkcNChoKAAAADUlIRFIAAAEAAAABAAgGAAAAXHKoZgAAAAFz

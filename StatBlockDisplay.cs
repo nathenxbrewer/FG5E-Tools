@@ -162,6 +162,15 @@ namespace Critter2FG
 
 
         }
+
+        public void SingleAttribute(XmlWriter writer, string attributename, string type, string value)
+        {
+            writer.WriteStartElement(attributename);
+            writer.WriteAttributeString("type", type);
+            writer.WriteString(value);
+            writer.WriteEndElement();
+        }
+
         public void ExportToXML(string name)
         {
             using (FileStream fileStream = new FileStream(name + ".xml", FileMode.Create))
@@ -192,10 +201,7 @@ namespace Critter2FG
                 writer.Indentation = 4;
                 writer.WriteStartElement("id-00001");
                 //name
-                writer.WriteStartElement("name");
-                writer.WriteAttributeString("type", "string");
-                writer.WriteString(name);
-                writer.WriteEndElement();
+                SingleAttribute(writer, "name", "string", name);
                 //size
                 writer.WriteStartElement("size");
                 writer.WriteAttributeString("type", "string");
